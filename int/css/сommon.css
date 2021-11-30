@@ -1,0 +1,23 @@
+@import "../fonts/onlinefontconverter.com/converted-files/font.css";
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #E5E5E5;
+  font-size: 16px;
+  font-weight: normal;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.container-lg {
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-sm {
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*# sourceMappingURL=%D1%81ommon.css.map */
