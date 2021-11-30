@@ -6,7 +6,7 @@ body
 	font-size: 16px
 	font-weight: normal
 	min-height: 100vh
-	overflow-x: hidden
+	overflow: hidden
 
 .container-lg
 	max-width: 1080px
@@ -18,3 +18,48 @@ body
 	margin-right: auto
 	margin-left: auto
 
+
+//header start
+.header
+
+	.header-nav-group
+		padding: 30px 0
+		display: block
+		position: relative
+		z-index: 102
+
+		.nav-group
+			display: flex
+
+		.header-logo
+			width: 30px
+			height: 30px
+			color: $mainColor
+			-moz-border-radius: 50px
+			-webkit-border-radius: 50px
+			border-radius: 50px
+			background-color: $logoColor
+			text-align: center
+
+//intro
+.section-intro
+
+
+	.intro-image
+		position: absolute
+		z-index: 101
+		max-height: 500px
+		max-width: 500px
+
+	.figure
+		width: 900px
+		height: 900px
+		color: $mainColor
+		-moz-border-radius: 100%
+		-webkit-border-radius: 100%
+		border-radius: 100%
+		background-color: $primaryColor
+		position: relative
+		top: -350px
+		right: 18%
+		z-index: 100
