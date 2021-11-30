@@ -1,12 +1,15 @@
 @import "variables"
 
 body
-	font-family: 'RobotoSlab-Regular', serif
+	font-family: 'RobotoSlab-Regular', serif , 'Inter', sans-serif
 	background-color: $mainColor
 	font-size: 16px
 	font-weight: normal
 	min-height: 100vh
-	overflow: hidden
+	overflow-x: hidden
+
+*a
+	text-decoration: none
 
 .container-lg
 	max-width: 1080px
@@ -21,28 +24,77 @@ body
 
 //header start
 .header
+	margin-bottom: 100px
+
 
 	.header-nav-group
 		padding: 30px 0
-		display: block
 		position: relative
 		z-index: 102
+
 
 		.nav-group
 			display: flex
 
+
+			.nav-link-active
+				font-size: 18px
+				font-family: 'Inter', sans-serif
+				font-weight: 600
+				color: $darkColor
+
+			.nav-link
+				font-size: 18px
+				font-family: 'Inter', sans-serif
+				font-weight: 500
+				color: $darkLightColor
+				margin-left: 34px
+		.nav
+			.nav-link
+				font-size: 18px
+				font-family: 'Inter', sans-serif
+				font-weight: 500
+				//font-family: 'RobotoSlab-Regular', sans-serif
+				color: $lightColor
+				margin-left: 34px
+
 		.header-logo
-			width: 30px
-			height: 30px
-			color: $mainColor
-			-moz-border-radius: 50px
-			-webkit-border-radius: 50px
-			border-radius: 50px
-			background-color: $logoColor
-			text-align: center
+			margin-right: 115px
 
 //intro
 .section-intro
+	.intro-text
+		font-family: 'Inter', sans-serif
+		font-weight: 400
+		//font-family: 'RobotoSlab-Thin', sans-serif
+		font-size: 42px
+		line-height: 64px
+		color: $darkColor
+		margin-bottom: 5px
+		max-width: 290px
+
+	.intro-title
+		font-size: 75px
+		font-family: 'Inter', sans-serif
+		font-weight: 600
+		line-height: 91px
+		margin-bottom: 30px
+
+	.intro-mini-text
+		font-size: 23px
+		font-family: 'Inter', sans-serif
+		font-weight: 500
+		line-height: 35px
+		margin-bottom: 40px
+
+	.link
+		font-size: 18px
+		font-family: 'Inter', sans-serif
+		font-weight: 500
+		line-height: 23px
+		padding: 15px 25px
+		color: $darkColor
+
 
 
 	.intro-image
@@ -50,16 +102,18 @@ body
 		z-index: 101
 		max-height: 500px
 		max-width: 500px
+		top: 10%
+		right: 20%
 
 	.figure
-		width: 900px
-		height: 900px
+		width: 1000px
+		height: 1000px
 		color: $mainColor
 		-moz-border-radius: 100%
 		-webkit-border-radius: 100%
 		border-radius: 100%
 		background-color: $primaryColor
 		position: relative
-		top: -350px
-		right: 18%
+		top: -500px
+		right: 0
 		z-index: 100
