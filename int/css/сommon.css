@@ -43,7 +43,21 @@
 }
 
 .mb-40 {
-  margin-bottom: 40px;
+  margin-bottom: 40px !important;
+}
+
+.row-padding-15 {
+  margin-left: -20px !important;
+  margin-right: -20px !important;
+}
+
+.row-padding-15 > * {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
 }
 
 body {
@@ -111,7 +125,7 @@ body {
   font-size: 18px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  color: #FAFBFF;
+  color: #0C1523;
   margin-left: 34px;
 }
 .header .header-nav-group .header-logo {
@@ -226,6 +240,8 @@ body {
 }
 .section-find .wrapper-section-find .find-item {
   padding: 50px 80px 50px 50px;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, rgba(233, 255, 240, 0.39), #41F5C0, #41F5C0, rgba(242, 245, 243, 0.13)) 47% 0;
 }
 .section-find .wrapper-section-find .find-item .icon {
   font-size: 18px;
