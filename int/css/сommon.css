@@ -5,11 +5,22 @@
 .btn-info {
   background-color: #41F5C0;
   color: #0C1523;
-  border-right: 9px;
-  font-size: 16px;
+  border-radius: 9px;
+  font-size: 17px;
   line-height: 18px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
+}
+
+.row-padding-0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
 }
 
 body {
@@ -31,19 +42,23 @@ body {
   margin-left: auto;
 }
 
-.container-sm {
+.container-md {
   max-width: 940px;
   margin-right: auto;
   margin-left: auto;
 }
 
+.container-sm {
+  max-width: 840px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .header {
-  margin-bottom: 100px;
+  margin-bottom: 92px;
 }
 .header .header-nav-group {
   padding: 30px 0;
-  position: relative;
-  z-index: 102;
 }
 .header .header-nav-group .nav-group {
   display: flex;
@@ -59,7 +74,10 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   color: #0C1523;
-  margin-left: 34px;
+  margin-left: 22px;
+}
+.header .header-nav-group .nav {
+  flex-wrap: nowrap;
 }
 .header .header-nav-group .nav .nav-link {
   font-size: 18px;
@@ -69,31 +87,35 @@ body {
   margin-left: 34px;
 }
 .header .header-nav-group .header-logo {
-  margin-right: 115px;
+  margin-right: 120px;
 }
 
+.section-intro {
+  margin-bottom: 150px;
+}
 .section-intro .intro-text {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 42px;
-  line-height: 64px;
+  font-size: 43px;
+  line-height: 69px;
   color: #0C1523;
   margin-bottom: 5px;
-  max-width: 290px;
+  max-width: 295px;
 }
 .section-intro .intro-title {
   font-size: 75px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
   line-height: 91px;
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 .section-intro .intro-mini-text {
-  font-size: 23px;
+  font-size: 24px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  line-height: 35px;
+  line-height: 37px;
   margin-bottom: 40px;
+  max-width: 367px;
 }
 .section-intro .link {
   font-size: 18px;
@@ -102,14 +124,16 @@ body {
   line-height: 23px;
   padding: 15px 25px;
   color: #0C1523;
+  margin-left: 1px;
 }
-.section-intro .intro-image {
-  position: absolute;
+.section-intro .intro-image-group .intro-image {
+  position: relative;
   z-index: 101;
-  max-height: 500px;
+  max-height: 672px;
   max-width: 500px;
   top: 10%;
-  right: 20%;
+  right: -16%;
+  margin-top: -100px;
 }
 .section-intro .figure {
   width: 1000px;
@@ -123,6 +147,35 @@ body {
   top: -500px;
   right: 0;
   z-index: 100;
+}
+.section-intro .wrapper-mini-logo {
+  max-width: 570px;
+  padding-top: 40px;
+}
+
+.section-worth .wrapper-worth .worth-title {
+  font-size: 42px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 51px;
+  text-align: center;
+  margin-bottom: 68px;
+}
+.section-worth .wrapper-worth .item .worth-number {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+  display: block;
+  margin-bottom: 12px;
+}
+.section-worth .wrapper-worth .item .worth-text {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=%D1%81ommon.css.map */
