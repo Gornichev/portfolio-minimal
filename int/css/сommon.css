@@ -1,3 +1,5 @@
+@import "../fonts/fonts.css";
+@import "../icon/style.css";
 .btn {
   padding: 15px 25px;
 }
@@ -10,6 +12,27 @@
   line-height: 18px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
+}
+
+.btn-dark {
+  background-color: #0C1523;
+  color: #FAFBFF;
+  border-radius: 9px;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.btn-success {
+  background-color: rgba(65, 245, 192, 0.16);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 11px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
 }
 
 .row-padding-0 {
@@ -29,7 +52,6 @@ body {
   font-size: 16px;
   font-weight: normal;
   min-height: 100vh;
-  overflow-x: hidden;
 }
 
 * a {
@@ -91,7 +113,7 @@ body {
 }
 
 .section-intro {
-  margin-bottom: 150px;
+  margin-bottom: 135px;
 }
 .section-intro .intro-text {
   font-family: "Inter", sans-serif;
@@ -127,8 +149,6 @@ body {
   margin-left: 1px;
 }
 .section-intro .intro-image-group .intro-image {
-  position: relative;
-  z-index: 101;
   max-height: 672px;
   max-width: 500px;
   top: 10%;
@@ -150,9 +170,12 @@ body {
 }
 .section-intro .wrapper-mini-logo {
   max-width: 570px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
+.section-worth {
+  margin-bottom: 150px;
+}
 .section-worth .wrapper-worth .worth-title {
   font-size: 42px;
   font-family: "Inter", sans-serif;
@@ -176,6 +199,47 @@ body {
   font-weight: 500;
   line-height: 20px;
   text-align: center;
+}
+
+.section-find {
+  padding: 120px 100px;
+}
+.section-find .wrapper-group-find {
+  max-width: 400px;
+}
+.section-find .wrapper-group-find .title-find {
+  font-size: 42px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 52px;
+  color: #0C1523;
+  margin-bottom: 40px;
+  max-width: 330px;
+}
+.section-find .find-item {
+  padding: 50px 80px 50px 50px;
+}
+.section-find .find-item .icon {
+  font-size: 18px;
+  color: #00C389;
+  margin-bottom: 15px;
+}
+.section-find .find-item .title-item {
+  font-size: 23px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 35px;
+  color: #0C1523;
+  margin-bottom: 17px;
+  padding-top: 15px;
+}
+.section-find .find-item .find-text {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 27px;
+  color: #0C1523;
+  max-width: 325px;
 }
 
 /*# sourceMappingURL=%D1%81ommon.css.map */
