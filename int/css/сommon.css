@@ -132,8 +132,17 @@ body {
   margin-right: 120px;
 }
 
+.section-back .background {
+  background: url("../img/background.png") right top/cover no-repeat;
+  height: 600px;
+  width: 600px;
+  float: right;
+  margin-top: -200px;
+}
+
 .section-intro {
   margin-bottom: 135px;
+  margin-top: 200px;
 }
 .section-intro .intro-text {
   font-family: "Inter", sans-serif;
