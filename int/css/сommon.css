@@ -62,7 +62,7 @@
 
 body {
   font-family: "RobotoSlab-Regular", serif, "Inter", sans-serif;
-  background-color: #fafbff;
+  background-color: #FFFFFF;
   font-size: 16px;
   font-weight: normal;
   min-height: 100vh;
@@ -125,7 +125,7 @@ body {
   font-size: 18px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  color: #BAADC0;
+  color: #0C1523;
   margin-left: 34px;
 }
 .header .header-nav-group .header-logo {
@@ -237,6 +237,7 @@ body {
   max-height: 265px;
   padding: 50px 80px 50px 50px;
   border-bottom: 5px solid;
+  border-radius: 5px;
   border-image: linear-gradient(to right, rgba(233, 255, 240, 0.39), #41F5C0, #41F5C0, rgba(242, 245, 243, 0.13)) 47% 0;
 }
 .section-find .wrapper-section-find .find-item .icon {
@@ -262,6 +263,9 @@ body {
   max-width: 325px;
 }
 
+.section-item {
+  margin-bottom: 120px;
+}
 .section-item .item-title {
   font-size: 31px;
   font-family: "Inter", sans-serif;
@@ -287,7 +291,9 @@ body {
 .section-item .item-full .item {
   text-align: center;
   padding-top: 90px;
-  min-width: 380px;
+  min-width: 372px;
+  border: 1px solid #FCF5FF;
+  border-radius: 5px;
 }
 .section-item .item-full .item .item-figure {
   width: 70px;
@@ -302,6 +308,69 @@ body {
   font-size: 28px;
   padding: 21px;
   color: #263959;
+}
+
+.section-mini-start {
+  margin-bottom: 250px;
+}
+.section-mini-start .title-start {
+  font-size: 31px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 38px;
+  color: #0C1523;
+  margin-bottom: 15px;
+}
+.section-mini-start .start-text {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  color: #0C1523;
+}
+
+.section-review {
+  margin-bottom: 170px;
+}
+.section-review .title-review {
+  font-size: 42px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 51px;
+  color: #0C1523;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-review .text-review-title {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 27px;
+  color: #0C1523;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.section-review .item-review-full .item-review {
+  text-align: center;
+  border-radius: 13px;
+  border: 1px #41F5C0 solid;
+  padding-top: 35px;
+}
+.section-review .item-review-full .item-review .btn {
+  margin-bottom: 56px;
+  border: 1px solid #FFD466;
+  border-radius: 13px;
+  color: #F8B200;
+  width: 84px;
+  height: 50px;
+  padding: 10px;
+}
+.section-review .item-review-full .item-review .icon {
+  font-size: 17px;
+  color: #F8B200;
+  margin: 0 auto;
+  text-align: center;
+  padding-right: 10px;
 }
 
 /*# sourceMappingURL=%D1%81ommon.css.map */

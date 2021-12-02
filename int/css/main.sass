@@ -2,7 +2,7 @@
 
 body
 	font-family: 'RobotoSlab-Regular', serif , 'Inter', sans-serif
-	background-color: $mainColor
+	background-color: $whiteColor
 	font-size: 16px
 	font-weight: normal
 	min-height: 100vh
@@ -66,7 +66,7 @@ body
 				font-family: 'Inter', sans-serif
 				font-weight: 500
 				//font-family: 'RobotoSlab-Regular', sans-serif
-				color: $lightColor
+				color: $darkLightColor
 				margin-left: 34px
 
 		.header-logo
@@ -187,6 +187,7 @@ body
 			max-height: 265px
 			padding: 50px 80px 50px 50px
 			border-bottom: 5px solid
+			border-radius: 5px
 			border-image: linear-gradient(to right, rgba(233, 255, 240, 0.39), #41F5C0, #41F5C0, rgba(242, 245, 243, 0.13)) 47% 0
 
 			.icon
@@ -213,6 +214,7 @@ body
 
 //section-item
 .section-item
+	margin-bottom: 120px
 
 	.item-title
 		font-size: 31px
@@ -238,7 +240,9 @@ body
 		.item
 			text-align: center
 			padding-top: 90px
-			min-width: 380px
+			min-width: 372px
+			border: 1px solid $ultralightColor
+			border-radius: 5px
 
 			.item-figure
 				width: 70px
@@ -254,6 +258,69 @@ body
 				padding: 21px
 				color: $primaryColor
 
+//section-start
+.section-mini-start
+	margin-bottom: 250px
+
+	.title-start
+		font-size: 31px
+		font-family: 'Inter', sans-serif
+		font-weight: 500
+		line-height: 38px
+		color: $darkColor
+		margin-bottom: 15px
+
+	.start-text
+		font-size: 18px
+		font-family: 'Inter', sans-serif
+		font-weight: 400
+		line-height: 28px
+		color: $darkColor
+
+//section-review
+.section-review
+	margin-bottom: 170px
+
+	.title-review
+		font-size: 42px
+		font-family: 'Inter', sans-serif
+		font-weight: 600
+		line-height: 51px
+		color: $darkColor
+		text-align: center
+		margin-bottom: 40px
+
+	.text-review-title
+		font-size: 18px
+		font-family: 'Inter', sans-serif
+		font-weight: 400
+		line-height: 27px
+		color: $darkColor
+		text-align: center
+		margin-bottom: 60px
+
+	.item-review-full
 
 
+		.item-review
+			text-align: center
+			border-radius: 13px
+			border: 1px $infoColor solid
+			padding-top: 35px
+
+			.btn
+				margin-bottom: 56px
+				border: 1px solid $goldColor
+				border-radius: 13px
+				color: $liteGoldColor
+				width: 84px
+				height: 50px
+				padding: 10px
+
+			.icon
+				font-size: 17px
+				color: $liteGoldColor
+				margin: 0 auto
+				text-align: center
+				padding-right: 10px
 
