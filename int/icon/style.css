@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ncusfq');
-  src:  url('fonts/icomoon.eot?ncusfq#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ncusfq') format('truetype'),
-    url('fonts/icomoon.woff?ncusfq') format('woff'),
-    url('fonts/icomoon.svg?ncusfq#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?alqm6k');
+  src:  url('fonts/icomoon.eot?alqm6k#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?alqm6k') format('truetype'),
+    url('fonts/icomoon.woff?alqm6k') format('woff'),
+    url('fonts/icomoon.svg?alqm6k#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -31,64 +31,8 @@
 .icon-find:before {
   content: "\e901";
 }
-.icon-medal .path1:before {
+.icon-medal:before {
   content: "\e902";
-  color: rgb(65, 245, 192);
-}
-.icon-medal .path2:before {
-  content: "\e903";
-  margin-left: -0.611328125em;
-  color: rgb(0, 195, 137);
-}
-.icon-medal .path3:before {
-  content: "\e904";
-  margin-left: -0.611328125em;
-  color: rgb(0, 195, 137);
-}
-.icon-medal .path4:before {
-  content: "\e905";
-  margin-left: -0.611328125em;
-  color: rgb(0, 195, 137);
-}
-.icon-medal .path5:before {
-  content: "\e906";
-  margin-left: -0.611328125em;
-  color: rgb(0, 195, 137);
-}
-.icon-medal .path6:before {
-  content: "\e907";
-  margin-left: -0.611328125em;
-  color: rgb(0, 195, 137);
-}
-.icon-medal .path7:before {
-  content: "\e908";
-  margin-left: -0.611328125em;
-  color: rgb(65, 245, 192);
-}
-.icon-medal .path8:before {
-  content: "\e909";
-  margin-left: -0.611328125em;
-  color: rgb(0, 195, 137);
-}
-.icon-medal .path9:before {
-  content: "\e90a";
-  margin-left: -0.611328125em;
-  color: rgb(65, 245, 192);
-}
-.icon-medal .path10:before {
-  content: "\e90b";
-  margin-left: -0.611328125em;
-  color: rgb(65, 245, 192);
-}
-.icon-medal .path11:before {
-  content: "\e90c";
-  margin-left: -0.611328125em;
-  color: rgb(65, 245, 192);
-}
-.icon-medal .path12:before {
-  content: "\e90d";
-  margin-left: -0.611328125em;
-  color: rgb(0, 195, 137);
 }
 .icon-Star:before {
   content: "\e90e";

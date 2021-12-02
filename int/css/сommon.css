@@ -195,7 +195,7 @@ body {
 }
 
 .section-worth {
-  margin-bottom: 150px;
+  margin-bottom: 128px;
 }
 .section-worth .wrapper-worth .worth-title {
   font-size: 42px;
@@ -228,6 +228,7 @@ body {
 .section-find .wrapper-section-find .wrapper-group-find {
   max-width: 400px;
   padding-left: 50px;
+  padding-top: 24px;
 }
 .section-find .wrapper-section-find .wrapper-group-find .title-find {
   font-size: 42px;
@@ -239,6 +240,8 @@ body {
   max-width: 330px;
 }
 .section-find .wrapper-section-find .find-item {
+  max-width: 458px;
+  max-height: 265px;
   padding: 50px 80px 50px 50px;
   border-bottom: 5px solid;
   border-image: linear-gradient(to right, rgba(233, 255, 240, 0.39), #41F5C0, #41F5C0, rgba(242, 245, 243, 0.13)) 47% 0;
