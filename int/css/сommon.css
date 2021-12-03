@@ -196,6 +196,7 @@ a {
 }
 .section-find .wrapper-section-find {
   padding: 120px 50px;
+  color: #FAFBFF;
 }
 .section-find .wrapper-section-find .wrapper-group-find {
   max-width: 400px;
@@ -273,6 +274,7 @@ a {
   min-width: 372px;
   border: 1px solid #FCF5FF;
   border-radius: 5px;
+  color: #BAADC0;
 }
 .section-item .item-full .item .icon {
   width: 70px;
@@ -325,6 +327,7 @@ a {
 .section-review {
   margin-bottom: 80px;
   padding: 120px 0;
+  color: #FAFBFF;
 }
 .section-review .title-review {
   font-size: 42px;
@@ -378,6 +381,21 @@ a {
 .section-review .item-review-full .item-review .item-photo {
   margin-bottom: 12px;
 }
+.section-review .item-review-full .item-review .item-photo-name {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 27px;
+  color: #0C1523;
+  margin-bottom: 10px;
+}
+.section-review .item-review-full .item-review .item-photo-text {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 21px;
+  color: #0C1523;
+}
 
 .footer {
   padding: 25px 0;
@@ -389,7 +407,7 @@ a {
   line-height: 35px;
   color: #0C1523;
 }
-.footer .icon {
+.footer a {
   margin-right: 40px;
   font-size: 25px;
 }
@@ -407,6 +425,20 @@ a {
   .section-item .item-full .item {
     min-width: auto;
   }
+}
+.section-find .wrapper-section-find .wrapper-group-find {
+  max-width: 400px;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-find .wrapper-section-find .wrapper-group-find .title-find {
+  max-width: 400px;
+}
+.section-find .wrapper-section-find .find-item {
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
 }
 
 /*# sourceMappingURL=%D1%81ommon.css.map */
