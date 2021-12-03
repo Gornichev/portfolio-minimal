@@ -3,6 +3,7 @@
 body
 	font-family: 'RobotoSlab-Regular', serif , 'Inter', sans-serif
 	background-color: $whiteColor
+	//background-color: $lightColor
 	font-size: 16px
 	font-weight: normal
 	min-height: 100vh
@@ -164,6 +165,7 @@ body
 				text-align: center
 //section-find
 .section-find
+	margin-bottom: 138px
 
 	.wrapper-section-find
 		padding: 120px 50px
@@ -216,11 +218,11 @@ body
 .section-item
 	margin-bottom: 120px
 
-	.item-title
-		font-size: 31px
+	.item-title-had
+		font-size: 42px
 		font-family: 'Inter', sans-serif
-		font-weight: 500
-		line-height: 38px
+		font-weight: 600
+		line-height: 51px
 		color: $darkColor
 		text-align: center
 		margin-bottom: 40px
@@ -229,17 +231,18 @@ body
 		font-size: 18px
 		font-family: 'Inter', sans-serif
 		font-weight: 400
-		line-height: 27px
+		line-height: 33px
 		color: $darkColor
 		text-align: center
 		max-width: 530px
-		margin: 0 auto 40px
+		margin: 0 auto 60px
 
 	.item-full
 		margin-bottom: 60px
+
 		.item
 			text-align: center
-			padding-top: 90px
+			padding: 90px 0 90px
 			min-width: 372px
 			border: 1px solid $ultralightColor
 			border-radius: 5px
@@ -252,15 +255,33 @@ body
 				display: block
 				margin: 0 auto 30px
 				border-radius: 6px
-
 			.icon
 				font-size: 28px
 				padding: 21px
 				color: $primaryColor
 
+
+			.item-title
+				font-size: 31px
+				font-family: 'Inter', sans-serif
+				font-weight: 500
+				line-height: 38px
+				color: $darkColor
+				margin-bottom: 20px
+
+			.item-text-mini
+				font-size: 18px
+				font-family: 'Inter', sans-serif
+				font-weight: 500
+				line-height: 27px
+				color: $darkColor
+				margin-bottom: 20px
+
+
+
 //section-start
 .section-mini-start
-	margin-bottom: 250px
+	margin-bottom: 130px
 
 	.title-start
 		font-size: 31px
@@ -279,13 +300,14 @@ body
 
 //section-review
 .section-review
-	margin-bottom: 170px
+	margin-bottom: 80px
+	padding: 120px 0
 
 	.title-review
 		font-size: 42px
 		font-family: 'Inter', sans-serif
 		font-weight: 600
-		line-height: 51px
+		line-height: 59px
 		color: $darkColor
 		text-align: center
 		margin-bottom: 40px
@@ -294,10 +316,11 @@ body
 		font-size: 18px
 		font-family: 'Inter', sans-serif
 		font-weight: 400
-		line-height: 27px
+		line-height: 31px
 		color: $darkColor
 		text-align: center
-		margin-bottom: 60px
+		margin: 0 auto 60px
+		max-width: 529px
 
 	.item-review-full
 
@@ -305,17 +328,18 @@ body
 		.item-review
 			text-align: center
 			border-radius: 13px
-			border: 1px $infoColor solid
-			padding-top: 35px
+			border: 1px $infBorderColor solid
+			padding: 35px 40px 40px
 
 			.btn
-				margin-bottom: 56px
+				margin-bottom: 50px
 				border: 1px solid $goldColor
 				border-radius: 13px
 				color: $liteGoldColor
 				width: 84px
 				height: 50px
 				padding: 10px
+
 
 			.icon
 				font-size: 17px
@@ -324,3 +348,26 @@ body
 				text-align: center
 				padding-right: 10px
 
+			.text-review
+				font-size: 18px
+				font-family: 'Inter', sans-serif
+				font-weight: 400
+				line-height: 28px
+				color: $darkColor
+				margin-bottom: 78px
+
+			.item-photo
+				margin-bottom: 12px
+
+.footer
+	padding: 25px 0
+
+	.footer-mail
+		font-size: 24px
+		font-family: 'Inter', sans-serif
+		font-weight: 500
+		line-height: 35px
+		color: $darkColor
+	.icon
+		margin-right: 40px
+		font-size: 25px
