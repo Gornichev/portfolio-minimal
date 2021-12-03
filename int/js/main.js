@@ -12,18 +12,11 @@
 
     var checkScroll = function() {
 
-        /*
-        ** Find the direction of scroll
-        ** 0 - initial, 1 - up, 2 - down
-        */
-
         curScroll = w.scrollY || doc.scrollTop;
         if (curScroll > prevScroll) {
-            //scrolled up
             direction = 2;
         }
         else if (curScroll < prevScroll) {
-            //scrolled down
             direction = 1;
         }
 
