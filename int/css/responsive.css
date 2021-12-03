@@ -1,0 +1,26 @@
+.row-padding-0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.row-padding-15 {
+  margin-left: -20px !important;
+  margin-right: -20px !important;
+}
+
+.row-padding-15 > * {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+/*# sourceMappingURL=responsive.css.map */

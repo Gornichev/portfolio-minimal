@@ -8,34 +8,15 @@ body
 	font-weight: normal
 	min-height: 100vh
 
-*a
+a
 	text-decoration: none
-.container-xl
+
+.container
 	max-width: 1140px
-	margin-right: auto
-	margin-left: auto
-
-.container-lg
-	max-width: 1080px
-	margin-right: auto
-	margin-left: auto
-
-
-.container-md
-	max-width: 940px
-	margin-right: auto
-	margin-left: auto
-
-.container-sm
-	max-width: 840px
-	margin-right: auto
-	margin-left: auto
-
 
 //header start
 .header
 	margin-bottom: 92px
-
 
 	.header-nav-group
 		padding: 30px 0
@@ -73,18 +54,14 @@ body
 		.header-logo
 			margin-right: 126px
 
-.section-back
-	.background
-		background: url("../img/background.png") right top / cover no-repeat
-		height: 850px
-		width: 850px
-		float: right
-		margin-top: -200px
+.section-background
+	background: url("../img/background.png") no-repeat right top
+	background-size: 905px 905px
 
 //intro
 .section-intro
 	margin-bottom: 135px
-	margin-top: 200px
+	padding-top: 200px
 
 	.wrapper-intro
 		padding: 1px 11px
@@ -247,7 +224,7 @@ body
 			border: 1px solid $ultralightColor
 			border-radius: 5px
 
-			.item-figure
+			.icon
 				width: 70px
 				height: 70px
 				background-color: $primaryLightColor
@@ -255,7 +232,6 @@ body
 				display: block
 				margin: 0 auto 30px
 				border-radius: 6px
-			.icon
 				font-size: 28px
 				padding: 21px
 				color: $primaryColor
