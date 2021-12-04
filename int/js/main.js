@@ -1,22 +1,33 @@
 (function(){
 
-    var doc = document.documentElement;
-    var w = window;
+    const toggleHeader = function(direction, curScroll) {
+        if (direction === 2 && curScroll > 52) {
 
-    var prevScroll = w.scrollY || doc.scrollTop;
-    var curScroll;
-    var direction = 0;
-    var prevDirection = 0;
 
-    var header = document.getElementById('site-header');
+            header.classList.add('hide');
+            prevDirection = direction;
+        }
+        else if (direction === 1) {
+            header.classList.remove('hide');
+            prevDirection = direction;
+        }
+    };
+    const doc = document.documentElement;
+    const w = window;
 
-    var checkScroll = function() {
+    let prevScroll = w.scrollY || doc.scrollTop;
+    let curScroll;
+    let direction = 0;
+    let prevDirection = 0;
+
+    const header = document.getElementById('site-header');
+
+    const checkScroll = function () {
 
         curScroll = w.scrollY || doc.scrollTop;
         if (curScroll > prevScroll) {
             direction = 2;
-        }
-        else if (curScroll < prevScroll) {
+        } else if (curScroll < prevScroll) {
             direction = 1;
         }
 
@@ -27,19 +38,6 @@
         prevScroll = curScroll;
     };
 
-    var toggleHeader = function(direction, curScroll) {
-        if (direction === 2 && curScroll > 52) {
-
-            //replace 52 with the height of your header in px
-
-            header.classList.add('hide');
-            prevDirection = direction;
-        }
-        else if (direction === 1) {
-            header.classList.remove('hide');
-            prevDirection = direction;
-        }
-    };
 
     window.addEventListener('scroll', checkScroll);
 

@@ -18,16 +18,17 @@ a
 #site-header
 		position: fixed
 		height: 120px
-		background: rgba(255, 255, 255, 0.47)
 		top: 0
 		width: 100%
 		z-index: 100
 		transition: all .3s ease
+		border-bottom: 1px solid $darkColor
+		background: rgba(255, 255, 255, 0.47)
 		box-shadow: 0 1px 25px rgba(0,0,0, .1)
-		border: 1px solid $darkColor
 
 #site-header.hide
 	top: -120px
+
 
 .header
 	margin-bottom: 92px
@@ -76,8 +77,9 @@ a
 			margin-right: 126px
 
 .section-background
-	background: url("../img/background.png") no-repeat right top
-	background-size: 905px 905px
+	background: url("../img/photo-intro.png") no-repeat right top
+	background-size: 550px 681px
+	position: relative
 
 //intro
 .section-intro
