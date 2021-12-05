@@ -130,6 +130,19 @@ a {
   color: #0C1523;
   margin-left: 34px;
 }
+.header .header-nav-group .nav .language-group {
+  padding: 8px 16px;
+}
+.header .header-nav-group .nav .language-group .language {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  color: #0C1523;
+  text-align: center;
+  border: 1px solid #FFD466;
+  margin-left: 30px;
+  padding: 5px;
+}
 .header .header-nav-group .header-logo {
   margin-right: 126px;
 }
