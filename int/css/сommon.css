@@ -323,6 +323,18 @@ a {
   padding: 21px;
   color: #263959;
 }
+.section-item .item-full .item .img-icon {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(38, 57, 89, 0.05);
+  text-align: center;
+  display: block;
+  margin: 0 auto 30px;
+  border-radius: 6px;
+  font-size: 28px;
+  padding: 18px;
+  color: #263959;
+}
 .section-item .item-full .item .item-title {
   font-size: 31px;
   font-family: "Inter", sans-serif;
@@ -389,62 +401,45 @@ a {
   border: 1px rgba(65, 245, 192, 0.2) solid;
   padding: 35px 40px 40px;
 }
-.section-review .item-review-full .item-review .btn {
-  margin-bottom: 50px;
-  border: 1px solid #FFD466;
-  border-radius: 13px;
-  color: #F8B200;
-  width: 84px;
-  height: 50px;
-  padding: 10px;
-}
 .section-review .item-review-full .item-review .icon {
-  font-size: 17px;
+  font-size: 50px;
   color: #F8B200;
-  margin: 0 auto;
   text-align: center;
-  padding-right: 10px;
 }
-.section-review .item-review-full .item-review .text-review {
-  font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  line-height: 28px;
-  color: #0C1523;
-  margin-bottom: 78px;
-}
-.section-review .item-review-full .item-review .item-photo {
-  margin-bottom: 12px;
+.section-review .item-review-full .item-review .wrapper-tel {
+  margin: 20px 0;
 }
 .section-review .item-review-full .item-review .item-photo-name {
-  font-size: 18px;
+  font-size: 22px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   line-height: 27px;
   color: #0C1523;
-  margin-bottom: 10px;
+  margin: 20px 0;
 }
 .section-review .item-review-full .item-review .item-photo-text {
-  font-size: 14px;
+  font-size: 20px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   line-height: 21px;
   color: #0C1523;
+  margin-bottom: 10px;
 }
 
 .footer {
-  padding: 25px 0;
+  padding: 30px 0;
+  background-color: #FCF5FF;
 }
-.footer .footer-mail {
-  font-size: 24px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  line-height: 35px;
-  color: #0C1523;
+.footer .wrapper-footer {
+  text-align: center;
 }
-.footer a {
+.footer .wrapper-footer a {
   margin-right: 40px;
   font-size: 25px;
+}
+.footer .wrapper-footer img {
+  width: 30px;
+  height: 30px;
 }
 
 @media (max-width: 1199.98px) {

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?9er1f3');
-  src:  url('fonts/icomoon.eot?9er1f3#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?9er1f3') format('truetype'),
-    url('fonts/icomoon.woff?9er1f3') format('woff'),
-    url('fonts/icomoon.svg?9er1f3#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?qjpd10');
+  src:  url('fonts/icomoon.eot?qjpd10#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?qjpd10') format('truetype'),
+    url('fonts/icomoon.woff?qjpd10') format('woff'),
+    url('fonts/icomoon.svg?qjpd10#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,44 +25,53 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-pen:before {
-  content: "\e903";
+.icon-phone:before {
+  content: "\e916";
+}
+.icon-adobe-photoshop:before {
+  content: "\e90b";
+}
+.icon-bootstrap:before {
+  content: "\e90d";
+}
+.icon-git:before {
+  content: "\e910";
+}
+.icon-html-5:before {
+  content: "\e911";
+}
+.icon-icons8-css3:before {
+  content: "\e912";
+}
+.icon-phpstorm:before {
+  content: "\e913";
+}
+.icon-icons8-html-5:before {
+  content: "\e90a";
 }
 .icon-world:before {
   content: "\e904";
 }
-.icon-voisesvg:before {
-  content: "\e905";
-}
-.icon-book:before {
-  content: "\e906";
-}
-.icon-uxsvg:before {
-  content: "\e907";
-}
-.icon-comp:before {
-  content: "\e908";
-}
-.icon-case:before {
-  content: "\e900";
-}
 .icon-find:before {
   content: "\e901";
-}
-.icon-medal:before {
-  content: "\e902";
 }
 .icon-Star:before {
   content: "\e90e";
 }
-.icon-sun:before {
-  content: "\e90f";
+.icon-envelope-regular:before {
+  content: "\e900";
+}
+.icon-icons8-:before {
+  content: "\e902";
 }
 .icon-facebook-color:before {
   content: "\e915";
 }
 .icon-linkidin:before {
   content: "\e909";
+}
+.icon-point:before {
+  content: "\e914";
 }
 .icon-insta:before {
   content: "\e90c";
