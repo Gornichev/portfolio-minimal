@@ -151,9 +151,14 @@ a {
   margin-right: 100px;
 }
 
+.background-video {
+  position: fixed;
+}
+
 .section-intro {
   margin-bottom: 235px;
   padding-top: 100px;
+  position: relative;
 }
 .section-intro .wrapper-intro {
   padding-top: 100px;
@@ -204,6 +209,7 @@ a {
 
 .section-worth {
   margin-bottom: 150px;
+  position: relative;
 }
 .section-worth .wrapper-worth .worth-title {
   font-size: 42px;
@@ -283,6 +289,7 @@ a {
 
 .section-item {
   margin-bottom: 120px;
+  position: relative;
 }
 .section-item .item-title-had {
   font-size: 42px;
@@ -357,6 +364,7 @@ a {
 
 .section-mini-start {
   margin-bottom: 130px;
+  position: relative;
 }
 .section-mini-start .title-start {
   font-size: 31px;
@@ -378,6 +386,7 @@ a {
   margin-bottom: 80px;
   padding: 120px 0;
   color: #FAFBFF;
+  position: relative;
 }
 .section-review .title-review {
   font-size: 42px;
@@ -432,6 +441,7 @@ a {
 .footer {
   padding: 30px 0;
   background-color: #FCF5FF;
+  position: relative;
 }
 .footer .wrapper-footer {
   text-align: center;
