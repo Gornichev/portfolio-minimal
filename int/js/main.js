@@ -1,3 +1,6 @@
+document.querySelector('video').playbackRate = 0.8;
+
+
 (function(){
 
     const toggleHeader = function(direction, curScroll) {
