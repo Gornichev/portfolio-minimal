@@ -176,8 +176,7 @@ a {
 }
 
 .section-intro {
-  margin-bottom: 235px;
-  padding-top: 100px;
+  padding-top: 120px;
   position: relative;
 }
 .section-intro .wrapper-intro {
@@ -228,8 +227,9 @@ a {
 }
 
 .section-worth {
-  margin-bottom: 150px;
   position: relative;
+  background-color: rgba(65, 245, 192, 0.16);
+  padding: 120px 0;
 }
 .section-worth .wrapper-worth .worth-title {
   font-size: 42px;
@@ -258,6 +258,7 @@ a {
 
 .section-find {
   margin-bottom: 138px;
+  position: relative;
 }
 .section-find .wrapper-section-find {
   padding: 120px 50px;
