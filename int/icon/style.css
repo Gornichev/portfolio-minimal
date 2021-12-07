@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?sz68ij');
-  src:  url('fonts/icomoon.eot?sz68ij#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?sz68ij') format('truetype'),
-    url('fonts/icomoon.woff?sz68ij') format('woff'),
-    url('fonts/icomoon.svg?sz68ij#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?1nnmmc');
+  src:  url('fonts/icomoon.eot?1nnmmc#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1nnmmc') format('truetype'),
+    url('fonts/icomoon.woff?1nnmmc') format('woff'),
+    url('fonts/icomoon.svg?1nnmmc#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-saas:before {
+  content: "\e908";
+}
 .icon-viber:before {
   content: "\e905";
 }

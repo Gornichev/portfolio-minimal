@@ -28,8 +28,8 @@
   border-radius: 5px;
   font-size: 18px;
   padding: 11px;
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
   text-align: center;
 }
 
@@ -99,9 +99,6 @@ a {
   transition: all 0.3s ease;
   box-shadow: 0 1px 25px rgba(0, 0, 0, 0.1);
 }
-.header .header-nav-group {
-  padding: 30px 0;
-}
 .header .header-nav-group .wrapper-nav {
   display: flex;
   justify-content: space-between;
@@ -138,7 +135,7 @@ a {
   border-radius: 100%;
   color: #010303;
   text-align: center;
-  border: 1px solid #FFD466;
+  border: 1px solid #41F5C0;
   margin-left: 10px;
   padding: 8px;
 }
@@ -267,19 +264,19 @@ a {
 }
 .section-find .wrapper-section-find .find-item {
   max-width: 458px;
-  max-height: 265px;
+  max-height: 300px;
   padding: 50px 80px 50px 50px;
   border-bottom: 5px solid;
   border-radius: 5px;
   border-image: linear-gradient(to right, rgba(233, 255, 240, 0.39), #41F5C0, #41F5C0, rgba(242, 245, 243, 0.13)) 47% 0;
 }
 .section-find .wrapper-section-find .find-item .icon {
-  font-size: 18px;
-  color: #00C389;
+  font-size: 40px;
+  color: #010303;
   margin-bottom: 15px;
 }
 .section-find .wrapper-section-find .find-item .title-item {
-  font-size: 23px;
+  font-size: 30px;
   font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 35px;
   color: #010303;
@@ -291,6 +288,19 @@ a {
   font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 27px;
   color: #010303;
+  margin-bottom: 20px;
+  position: relative;
+}
+.section-find .wrapper-section-find .find-item .find-text:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #0C1523;
+  top: 8px;
+  left: 15px;
+  transform: rotate(45deg);
 }
 
 .section-item {
@@ -413,7 +423,7 @@ a {
 }
 .section-review .item-review-full .item-review .icon {
   font-size: 50px;
-  color: #F8B200;
+  color: #00C389;
   text-align: center;
 }
 .section-review .item-review-full .item-review .wrapper-tel {

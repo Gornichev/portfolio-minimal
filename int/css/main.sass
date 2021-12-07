@@ -41,7 +41,6 @@ a
 	box-shadow: 0 1px 25px rgba(0,0,0, .1)
 
 	.header-nav-group
-		padding: 30px 0
 
 		.wrapper-nav
 			display: flex
@@ -79,7 +78,7 @@ a
 					border-radius: 100%
 					color: $darkColor
 					text-align: center
-					border: 1px solid $goldColor
+					border: 1px solid $infoColor
 					margin-left: 10px
 					padding: 8px
 
@@ -216,19 +215,19 @@ a
 
 		.find-item
 			max-width: 458px
-			max-height: 265px
+			max-height: 300px
 			padding: 50px 80px 50px 50px
 			border-bottom: 5px solid
 			border-radius: 5px
 			border-image: linear-gradient(to right, rgba(233, 255, 240, 0.39), #41F5C0, #41F5C0, rgba(242, 245, 243, 0.13)) 47% 0
 
 			.icon
-				font-size: 18px
-				color: $greenColor
+				font-size: 40px
+				color: $darkColor
 				margin-bottom: 15px
 
 			.title-item
-				font-size: 23px
+				font-size: 30px
 				font-family: 'RobotoSlab-Regular', sans-serif
 				line-height: 35px
 				color: $darkColor
@@ -240,6 +239,19 @@ a
 				font-family: 'RobotoSlab-Regular', sans-serif
 				line-height: 27px
 				color: $darkColor
+				margin-bottom: 20px
+				position: relative
+
+			.find-text:after
+				position: absolute
+				display: block
+				content: ""
+				width: 8px
+				height: 8px
+				background: $darkLightColor
+				top: 8px
+				left: 15px
+				transform: rotate(45deg)
 
 //section-item
 .section-item
@@ -370,7 +382,7 @@ a
 
 			.icon
 				font-size: 50px
-				color: $liteGoldColor
+				color: $greenColor
 				text-align: center
 
 			.wrapper-tel
