@@ -111,9 +111,6 @@ a {
   font-family: "RobotoSlab-Regular", sans-serif;
   color: #010303;
 }
-.header .header-nav-group .nav-group .nav-link-active:hover {
-  font-size: 40px;
-}
 .header .header-nav-group .nav-group .nav-link {
   font-size: 20px;
   font-family: "RobotoSlab-Regular", sans-serif;
