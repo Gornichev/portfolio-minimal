@@ -107,15 +107,43 @@ a {
   display: flex;
 }
 .header .header-nav-group .nav-group .nav-link-active {
+  padding: 8px 16px;
+  display: inline-block;
   font-size: 20px;
   font-family: "RobotoSlab-Regular", sans-serif;
   color: #010303;
+}
+.header .header-nav-group .nav-group .nav-link-active:after {
+  display: block;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #010303;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+.header .header-nav-group .nav-group .nav-link-active:hover:after {
+  width: 100%;
 }
 .header .header-nav-group .nav-group .nav-link {
   font-size: 20px;
   font-family: "RobotoSlab-Regular", sans-serif;
   color: #0C1523;
   margin-left: 22px;
+}
+.header .header-nav-group .nav-group .nav-link:after {
+  display: block;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #010303;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+.header .header-nav-group .nav-group .nav-link:hover:after {
+  width: 100%;
 }
 .header .header-nav-group .nav {
   flex-wrap: nowrap;
@@ -125,6 +153,19 @@ a {
   font-family: "RobotoSlab-Regular", sans-serif;
   color: #0C1523;
   margin-left: 32px;
+}
+.header .header-nav-group .nav .nav-link:after {
+  display: block;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #010303;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+.header .header-nav-group .nav .nav-link:hover:after {
+  width: 100%;
 }
 .header .header-nav-group .nav .language-group {
   padding: 8px 16px;
@@ -191,12 +232,14 @@ a {
   font-family: "RobotoSlab-Bold", sans-serif;
   line-height: 91px;
   margin-bottom: 36px;
+  text-shadow: 2px -1px 1px rgba(68, 68, 68, 0.7);
 }
 .section-intro .wrapper-intro .intro-mini-text {
   font-size: 32px;
   font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 40px;
   margin-bottom: 40px;
+  text-shadow: 1px -1px 1px rgba(68, 68, 68, 0.38);
 }
 .section-intro .wrapper-img-intro {
   margin: 0 auto;

@@ -51,15 +51,44 @@ a
 
 
 			.nav-link-active
+				padding: 8px 16px
+				display: inline-block
 				font-size: 20px
 				font-family: 'RobotoSlab-Regular', sans-serif
 				color: $darkColor
+
+				&:after
+					display: block
+					content: ""
+					width: 0
+					height: 2px
+					background-color: $darkColor
+					-webkit-transition: width .3s ease-in-out
+					-moz-transition: width .3s ease-in-out
+					transition: width .3s ease-in-out
+
+				&:hover:after
+					width: 100%
 
 			.nav-link
 				font-size: 20px
 				font-family: 'RobotoSlab-Regular', sans-serif
 				color: $darkLightColor
 				margin-left: 22px
+
+				&:after
+					display: block
+					content: ""
+					width: 0
+					height: 2px
+					background-color: $darkColor
+					-webkit-transition: width .3s ease-in-out
+					-moz-transition: width .3s ease-in-out
+					transition: width .3s ease-in-out
+
+				&:hover:after
+					width: 100%
+
 		.nav
 			flex-wrap: nowrap
 
@@ -68,6 +97,19 @@ a
 				font-family: 'RobotoSlab-Regular', sans-serif
 				color: $darkLightColor
 				margin-left: 32px
+
+				&:after
+					display: block
+					content: ""
+					width: 0
+					height: 2px
+					background-color: $darkColor
+					-webkit-transition: width .3s ease-in-out
+					-moz-transition: width .3s ease-in-out
+					transition: width .3s ease-in-out
+
+				&:hover:after
+					width: 100%
 
 			.language-group
 				padding: 8px 16px
@@ -86,10 +128,8 @@ a
 			margin-right: 100px
 
 			img
-
 				height: 60px
 				opacity: 0.7
-
 
 .background
 
@@ -138,12 +178,16 @@ a
 			font-family: 'RobotoSlab-Bold', sans-serif
 			line-height: 91px
 			margin-bottom: 36px
+			text-shadow: 2px -1px 1px rgba(68, 68, 68, 0.70)
+
 
 		.intro-mini-text
 			font-size: 32px
 			font-family: 'RobotoSlab-Regular', sans-serif
 			line-height: 40px
 			margin-bottom: 40px
+			text-shadow: 1px -1px 1px rgba(68, 68, 68, 0.38)
+
 
 	.wrapper-img-intro
 		margin: 0 auto
