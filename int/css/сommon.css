@@ -262,12 +262,12 @@ a {
 .section-find .wrapper-section-find .find-item:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
-.section-find .wrapper-section-find .find-item:hover .icon {
+.section-find .wrapper-section-find .find-item .icon {
   font-size: 40px;
   color: #010303;
   margin-bottom: 15px;
 }
-.section-find .wrapper-section-find .find-item:hover .title-item {
+.section-find .wrapper-section-find .find-item .title-item {
   font-size: 30px;
   font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 35px;
@@ -275,7 +275,7 @@ a {
   margin-bottom: 17px;
   padding-top: 15px;
 }
-.section-find .wrapper-section-find .find-item:hover .find-text {
+.section-find .wrapper-section-find .find-item .find-text {
   font-size: 18px;
   font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 27px;
@@ -283,7 +283,7 @@ a {
   margin-bottom: 20px;
   position: relative;
 }
-.section-find .wrapper-section-find .find-item:hover .find-text:after {
+.section-find .wrapper-section-find .find-item .find-text:after {
   position: absolute;
   display: block;
   content: "";
