@@ -56,6 +56,7 @@ a
 				font-size: 20px
 				font-family: 'RobotoSlab-Regular', sans-serif
 				color: $darkColor
+				-webkit-transition: 2s ease
 
 				&:after
 					display: block
@@ -67,7 +68,10 @@ a
 					-moz-transition: width .3s ease-in-out
 					transition: width .3s ease-in-out
 				&:hover
-					color: $infBorderColor
+					transform: scale(1.1)
+					transition: 0.3s
+				&:active
+					color: $greenColor
 
 				&:hover:after
 					width: 100%
@@ -78,6 +82,7 @@ a
 				font-family: 'RobotoSlab-Regular', sans-serif
 				color: $darkLightColor
 				margin-left: 22px
+				-webkit-transition: 0.5s ease
 
 				&:after
 					display: block
@@ -90,7 +95,10 @@ a
 					transition: width .3s ease-in-out
 
 				&:hover
-					color: $primaryLightColor
+					transform: scale(1.1)
+					transition: 0.3s
+				&:active
+					color: $greenColor
 
 				&:hover:after
 					width: 100%
@@ -104,6 +112,7 @@ a
 				font-family: 'RobotoSlab-Regular', sans-serif
 				color: $darkLightColor
 				margin-left: 32px
+				-webkit-transition: 0.5s ease
 
 				&:after
 					display: block
@@ -119,7 +128,10 @@ a
 					width: 100%
 					box-shadow: 0 1px 25px rgba(0,0,0, .1)
 				&:hover
-					color: $infBorderColor
+					transform: scale(1.1)
+					transition: 0.3s
+				&:active
+					color: $greenColor
 
 			.language-group
 				padding: 8px 16px
@@ -219,22 +231,11 @@ a
 			text-align: center
 			margin-bottom: 68px
 
-		.item
-
-
-			.worth-number
-				font-size: 32px
-				font-family: 'RobotoSlab-Regular', sans-serif
-				line-height: 38px
-				text-align: center
-				display: block
-				margin-bottom: 12px
-
-			.worth-text
-				font-size: 14px
-				font-family: 'RobotoSlab-Regular', sans-serif
-				line-height: 20px
-				text-align: center
+		.worth-text
+			font-size: 20px
+			font-family: 'RobotoSlab-Regular', sans-serif
+			line-height: 20px
+			text-align: center
 //section-find
 .section-find
 	margin-bottom: 138px
@@ -277,6 +278,17 @@ a
 				font-size: 40px
 				color: $darkColor
 				margin-bottom: 15px
+
+			.find-item-element
+				background-color: $infoBtnColor
+				border: none
+				border-radius: 5px
+				font-size: 18px
+				padding: 11px
+				height: 60px
+				width:  60px
+				text-align: center
+				margin: 0 auto
 
 
 			.title-item
@@ -400,7 +412,7 @@ a
 
 	.start-text
 		font-size: 18px
-		font-family: 'RobotoSlab-Thin', sans-serif
+		font-family: 'RobotoSlab-Regular', sans-serif
 		line-height: 28px
 		color: $darkColor
 	img
