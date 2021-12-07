@@ -6,22 +6,20 @@
 
 .btn-info {
   background-color: #41F5C0;
-  color: #0C1523;
+  color: #010303;
   border-radius: 9px;
   font-size: 17px;
   line-height: 18px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-family: "RobotoSlab-Regular", serif;
 }
 
 .btn-dark {
-  background-color: #0C1523;
+  background-color: #010303;
   color: #BAADC0;
   border-radius: 9px;
   font-size: 16px;
   line-height: 19px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-family: "RobotoSlab-Regular", sans-serif;
 }
 
 .btn-success {
@@ -60,7 +58,7 @@
 }
 
 body {
-  font-family: "RobotoSlab-Regular", serif, "Inter", sans-serif;
+  font-family: "RobotoSlab-Regular", sans-serif, "Inter", sans-serif;
   background-color: #FFFFFF;
   font-size: 16px;
   font-weight: normal;
@@ -82,7 +80,7 @@ a {
   width: 100%;
   z-index: 100;
   transition: all 0.3s ease;
-  border-bottom: 1px solid #0C1523;
+  border-bottom: 1px solid #010303;
   background: rgba(255, 255, 255, 0.47);
   box-shadow: 0 1px 25px rgba(0, 0, 0, 0.1);
 }
@@ -112,15 +110,13 @@ a {
   display: flex;
 }
 .header .header-nav-group .nav-group .nav-link-active {
-  font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  color: #0C1523;
+  font-size: 20px;
+  font-family: "RobotoSlab-Regular", sans-serif;
+  color: #010303;
 }
 .header .header-nav-group .nav-group .nav-link {
-  font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-size: 20px;
+  font-family: "RobotoSlab-Regular", sans-serif;
   color: #0C1523;
   margin-left: 22px;
 }
@@ -128,9 +124,8 @@ a {
   flex-wrap: nowrap;
 }
 .header .header-nav-group .nav .nav-link {
-  font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-size: 20px;
+  font-family: "RobotoSlab-Regular", sans-serif;
   color: #0C1523;
   margin-left: 32px;
 }
@@ -141,11 +136,11 @@ a {
   width: 30px;
   height: 30px;
   border-radius: 100%;
-  color: #0C1523;
+  color: #010303;
   text-align: center;
   border: 1px solid #FFD466;
   margin-left: 10px;
-  padding: 5px;
+  padding: 8px;
 }
 .header .header-nav-group .header-logo {
   margin-right: 100px;
@@ -183,25 +178,22 @@ a {
   padding-top: 100px;
 }
 .section-intro .wrapper-intro .intro-text {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-family: "RobotoSlab-Thin", sans-serif;
   font-size: 43px;
   line-height: 69px;
-  color: #0C1523;
+  color: #010303;
   margin-bottom: 5px;
   max-width: 295px;
 }
 .section-intro .wrapper-intro .intro-title {
   font-size: 75px;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-family: "RobotoSlab-Bold", sans-serif;
   line-height: 91px;
   margin-bottom: 36px;
 }
 .section-intro .wrapper-intro .intro-mini-text {
-  font-size: 24px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-size: 32px;
+  font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 40px;
   margin-bottom: 40px;
 }
@@ -210,11 +202,10 @@ a {
 }
 .section-intro .wrapper-btn .link {
   font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 23px;
   padding: 15px 25px;
-  color: #0C1523;
+  color: #010303;
   margin-left: 1px;
 }
 .section-intro .wrapper-mini-logo {
@@ -233,16 +224,14 @@ a {
 }
 .section-worth .wrapper-worth .worth-title {
   font-size: 42px;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-family: "RobotoSlab-Bold", sans-serif;
   line-height: 51px;
   text-align: center;
   margin-bottom: 68px;
 }
 .section-worth .wrapper-worth .item .worth-number {
   font-size: 32px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 38px;
   text-align: center;
   display: block;
@@ -250,8 +239,7 @@ a {
 }
 .section-worth .wrapper-worth .item .worth-text {
   font-size: 14px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 20px;
   text-align: center;
 }
@@ -271,8 +259,7 @@ a {
 }
 .section-find .wrapper-section-find .wrapper-group-find .title-find {
   font-size: 42px;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-family: "RobotoSlab-Bold", sans-serif;
   line-height: 52px;
   color: #0C1523;
   margin-bottom: 40px;
@@ -293,19 +280,17 @@ a {
 }
 .section-find .wrapper-section-find .find-item .title-item {
   font-size: 23px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 35px;
-  color: #0C1523;
+  color: #010303;
   margin-bottom: 17px;
   padding-top: 15px;
 }
 .section-find .wrapper-section-find .find-item .find-text {
   font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 27px;
-  color: #0C1523;
+  color: #010303;
 }
 
 .section-item {
@@ -314,19 +299,17 @@ a {
 }
 .section-item .item-title-had {
   font-size: 42px;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-family: "RobotoSlab-Bold", sans-serif;
   line-height: 51px;
-  color: #0C1523;
+  color: #010303;
   text-align: center;
   margin-bottom: 40px;
 }
 .section-item .item-text {
   font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-family: "RobotoSlab-Thin", sans-serif;
   line-height: 33px;
-  color: #0C1523;
+  color: #010303;
   text-align: center;
   max-width: 530px;
   margin: 0 auto 60px;
@@ -368,18 +351,16 @@ a {
 }
 .section-item .item-full .item .item-title {
   font-size: 31px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 38px;
-  color: #0C1523;
+  color: #010303;
   margin-bottom: 20px;
 }
 .section-item .item-full .item .item-text-mini {
   font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 27px;
-  color: #0C1523;
+  color: #010303;
   margin-bottom: 20px;
 }
 
@@ -389,18 +370,16 @@ a {
 }
 .section-mini-start .title-start {
   font-size: 31px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 38px;
-  color: #0C1523;
+  color: #010303;
   margin-bottom: 15px;
 }
 .section-mini-start .start-text {
   font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-family: "RobotoSlab-Thin", sans-serif;
   line-height: 28px;
-  color: #0C1523;
+  color: #010303;
 }
 
 .section-review {
@@ -411,19 +390,17 @@ a {
 }
 .section-review .title-review {
   font-size: 42px;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
+  font-family: "RobotoSlab-Bold", sans-serif;
   line-height: 59px;
-  color: #0C1523;
+  color: #010303;
   text-align: center;
   margin-bottom: 40px;
 }
 .section-review .text-review-title {
   font-size: 18px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-family: "RobotoSlab-Thin", sans-serif;
   line-height: 31px;
-  color: #0C1523;
+  color: #010303;
   text-align: center;
   margin: 0 auto 60px;
   max-width: 529px;
@@ -444,18 +421,16 @@ a {
 }
 .section-review .item-review-full .item-review .item-photo-name {
   font-size: 22px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 27px;
-  color: #0C1523;
+  color: #010303;
   margin: 20px 0;
 }
 .section-review .item-review-full .item-review .item-photo-text {
   font-size: 20px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+  font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 21px;
-  color: #0C1523;
+  color: #010303;
   margin-bottom: 10px;
 }
 

@@ -1,4 +1,4 @@
-document.querySelector('video').playbackRate = 0.8;
+
 
 
 (function(){
