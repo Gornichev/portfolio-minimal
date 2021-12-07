@@ -123,8 +123,12 @@ a {
   -moz-transition: width 0.3s ease-in-out;
   transition: width 0.3s ease-in-out;
 }
+.header .header-nav-group .nav-group .nav-link-active:hover {
+  color: rgba(65, 245, 192, 0.2);
+}
 .header .header-nav-group .nav-group .nav-link-active:hover:after {
   width: 100%;
+  box-shadow: 0 1px 25px rgba(0, 0, 0, 0.1);
 }
 .header .header-nav-group .nav-group .nav-link {
   font-size: 20px;
@@ -142,8 +146,12 @@ a {
   -moz-transition: width 0.3s ease-in-out;
   transition: width 0.3s ease-in-out;
 }
+.header .header-nav-group .nav-group .nav-link:hover {
+  color: rgba(38, 57, 89, 0.05);
+}
 .header .header-nav-group .nav-group .nav-link:hover:after {
   width: 100%;
+  box-shadow: 0 1px 25px rgba(0, 0, 0, 0.1);
 }
 .header .header-nav-group .nav {
   flex-wrap: nowrap;
@@ -166,6 +174,10 @@ a {
 }
 .header .header-nav-group .nav .nav-link:hover:after {
   width: 100%;
+  box-shadow: 0 1px 25px rgba(0, 0, 0, 0.1);
+}
+.header .header-nav-group .nav .nav-link:hover {
+  color: rgba(65, 245, 192, 0.2);
 }
 .header .header-nav-group .nav .language-group {
   padding: 8px 16px;
@@ -295,15 +307,19 @@ a {
   max-width: 330px;
 }
 .section-find .wrapper-section-find .find-item {
+  overflow: hidden;
   max-width: 458px;
   max-height: 300px;
   padding: 50px 80px 50px 50px;
   border-bottom: 3px solid;
   border-radius: 5px;
+  -webkit-transition: 0.3s ease;
   border-image: linear-gradient(to right, rgba(233, 255, 240, 0.25), rgba(65, 245, 192, 0.78), rgba(65, 245, 192, 0.82), rgba(242, 245, 243, 0.13)) 47% 0;
 }
 .section-find .wrapper-section-find .find-item:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 .section-find .wrapper-section-find .find-item .icon {
   font-size: 40px;

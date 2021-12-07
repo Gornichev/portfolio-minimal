@@ -66,9 +66,12 @@ a
 					-webkit-transition: width .3s ease-in-out
 					-moz-transition: width .3s ease-in-out
 					transition: width .3s ease-in-out
+				&:hover
+					color: $infBorderColor
 
 				&:hover:after
 					width: 100%
+					box-shadow: 0 1px 25px rgba(0,0,0, .1)
 
 			.nav-link
 				font-size: 20px
@@ -86,8 +89,12 @@ a
 					-moz-transition: width .3s ease-in-out
 					transition: width .3s ease-in-out
 
+				&:hover
+					color: $primaryLightColor
+
 				&:hover:after
 					width: 100%
+					box-shadow: 0 1px 25px rgba(0,0,0, .1)
 
 		.nav
 			flex-wrap: nowrap
@@ -110,6 +117,9 @@ a
 
 				&:hover:after
 					width: 100%
+					box-shadow: 0 1px 25px rgba(0,0,0, .1)
+				&:hover
+					color: $infBorderColor
 
 			.language-group
 				padding: 8px 16px
@@ -249,15 +259,19 @@ a
 				max-width: 330px
 
 		.find-item
+			overflow: hidden
 			max-width: 458px
 			max-height: 300px
 			padding: 50px 80px 50px 50px
 			border-bottom: 3px solid
 			border-radius: 5px
+			-webkit-transition: 0.3s ease
 			border-image: linear-gradient(to right, rgba(233, 255, 240, 0.25), rgba(65, 245, 192, 0.78), rgba(65, 245, 192, 0.82), rgba(242, 245, 243, 0.13)) 47% 0
 
 			&:hover
 				box-shadow: 0 0 11px rgba(33,33,33,.2)
+				transform: scale(1.1)
+				transition: 0.3s
 
 			.icon
 				font-size: 40px
