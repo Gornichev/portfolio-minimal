@@ -23,7 +23,7 @@ a
 		z-index: 100
 		transition: all .3s ease
 		border-bottom: 1px solid $darkColor
-		background: rgba(255, 255, 255, 0.47)
+		background: rgba(255, 255, 255, 0.32)
 		box-shadow: 0 1px 25px rgba(0,0,0, .1)
 
 #site-header.hide
@@ -54,6 +54,8 @@ a
 				font-size: 20px
 				font-family: 'RobotoSlab-Regular', sans-serif
 				color: $darkColor
+			.nav-link-active:hover
+				font-size: 40px
 
 			.nav-link
 				font-size: 20px
@@ -84,6 +86,11 @@ a
 
 		.header-logo
 			margin-right: 100px
+
+			img
+
+				height: 60px
+				opacity: 0.7
 
 
 .background
@@ -140,21 +147,6 @@ a
 			line-height: 40px
 			margin-bottom: 40px
 
-	.wrapper-btn
-		margin-bottom: 160px
-
-		.link
-			font-size: 18px
-			font-family: 'RobotoSlab-Regular', sans-serif
-			line-height: 23px
-			padding: 15px 25px
-			color: $darkColor
-			margin-left: 1px
-
-	.wrapper-mini-logo
-		max-width: 537px
-		padding-top: 20px
-
 	.wrapper-img-intro
 		margin: 0 auto
 		max-width: 470px
@@ -205,6 +197,7 @@ a
 			padding-left: 50px
 			padding-top: 24px
 
+
 			.title-find
 				font-size: 42px
 				font-family: 'RobotoSlab-Bold', sans-serif
@@ -221,10 +214,14 @@ a
 			border-radius: 5px
 			border-image: linear-gradient(to right, rgba(233, 255, 240, 0.25), rgba(65, 245, 192, 0.78), rgba(65, 245, 192, 0.82), rgba(242, 245, 243, 0.13)) 47% 0
 
+		.find-item:hover
+			box-shadow: 0 0 11px rgba(33,33,33,.2)
+
 			.icon
 				font-size: 40px
 				color: $darkColor
 				margin-bottom: 15px
+
 
 			.title-item
 				font-size: 30px
@@ -253,11 +250,12 @@ a
 				left: 15px
 				transform: rotate(45deg)
 
+
+
 //section-item
 .section-item
 	margin-bottom: 120px
 	position: relative
-
 
 	.item-title-had
 		font-size: 42px
@@ -279,6 +277,8 @@ a
 	.item-full
 		margin-bottom: 60px
 
+
+
 		.item
 			text-align: center
 			padding: 90px 0 90px
@@ -286,6 +286,7 @@ a
 			border: 1px solid $ultralightColor
 			border-radius: 5px
 			color: $lightColor
+
 
 			.icon
 				width: 70px
@@ -346,6 +347,8 @@ a
 		font-family: 'RobotoSlab-Thin', sans-serif
 		line-height: 28px
 		color: $darkColor
+	img
+		max-height: 400px
 
 //section-review
 .section-review

@@ -81,7 +81,7 @@ a {
   z-index: 100;
   transition: all 0.3s ease;
   border-bottom: 1px solid #010303;
-  background: rgba(255, 255, 255, 0.47);
+  background: rgba(255, 255, 255, 0.32);
   box-shadow: 0 1px 25px rgba(0, 0, 0, 0.1);
 }
 
@@ -110,6 +110,9 @@ a {
   font-size: 20px;
   font-family: "RobotoSlab-Regular", sans-serif;
   color: #010303;
+}
+.header .header-nav-group .nav-group .nav-link-active:hover {
+  font-size: 40px;
 }
 .header .header-nav-group .nav-group .nav-link {
   font-size: 20px;
@@ -141,6 +144,10 @@ a {
 }
 .header .header-nav-group .header-logo {
   margin-right: 100px;
+}
+.header .header-nav-group .header-logo img {
+  height: 60px;
+  opacity: 0.7;
 }
 
 .background .background-overlay {
@@ -193,21 +200,6 @@ a {
   font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 40px;
   margin-bottom: 40px;
-}
-.section-intro .wrapper-btn {
-  margin-bottom: 160px;
-}
-.section-intro .wrapper-btn .link {
-  font-size: 18px;
-  font-family: "RobotoSlab-Regular", sans-serif;
-  line-height: 23px;
-  padding: 15px 25px;
-  color: #010303;
-  margin-left: 1px;
-}
-.section-intro .wrapper-mini-logo {
-  max-width: 537px;
-  padding-top: 20px;
 }
 .section-intro .wrapper-img-intro {
   margin: 0 auto;
@@ -270,12 +262,15 @@ a {
   border-radius: 5px;
   border-image: linear-gradient(to right, rgba(233, 255, 240, 0.25), rgba(65, 245, 192, 0.78), rgba(65, 245, 192, 0.82), rgba(242, 245, 243, 0.13)) 47% 0;
 }
-.section-find .wrapper-section-find .find-item .icon {
+.section-find .wrapper-section-find .find-item:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+.section-find .wrapper-section-find .find-item:hover .icon {
   font-size: 40px;
   color: #010303;
   margin-bottom: 15px;
 }
-.section-find .wrapper-section-find .find-item .title-item {
+.section-find .wrapper-section-find .find-item:hover .title-item {
   font-size: 30px;
   font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 35px;
@@ -283,7 +278,7 @@ a {
   margin-bottom: 17px;
   padding-top: 15px;
 }
-.section-find .wrapper-section-find .find-item .find-text {
+.section-find .wrapper-section-find .find-item:hover .find-text {
   font-size: 18px;
   font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 27px;
@@ -291,7 +286,7 @@ a {
   margin-bottom: 20px;
   position: relative;
 }
-.section-find .wrapper-section-find .find-item .find-text:after {
+.section-find .wrapper-section-find .find-item:hover .find-text:after {
   position: absolute;
   display: block;
   content: "";
@@ -390,6 +385,9 @@ a {
   font-family: "RobotoSlab-Thin", sans-serif;
   line-height: 28px;
   color: #010303;
+}
+.section-mini-start img {
+  max-height: 400px;
 }
 
 .section-review {
