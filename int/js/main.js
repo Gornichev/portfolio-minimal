@@ -48,7 +48,7 @@
 
 // Swiper
 const swiper = new Swiper('.swiper-cert', {
-    slidesPerView: 3,
+    slidesPerView: 4,
     spaceBetween: 30,
     speed: 500,
     loop: true,
@@ -56,7 +56,6 @@ const swiper = new Swiper('.swiper-cert', {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
-
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
@@ -83,7 +82,7 @@ const swiper = new Swiper('.swiper-cert', {
             spaceBetween: 40
         },
         1200: {
-            slidesPerView: 5,
+            slidesPerView: 4,
             spaceBetween: 40
         },
 
