@@ -677,6 +677,13 @@ a {
     min-width: auto;
   }
 }
+.header .header-nav-group .header-logo {
+  margin-right: 0;
+}
+.header .header-nav-group .nav .language-group .language {
+  padding: 13px;
+}
+
 .section-find .wrapper-section-find .wrapper-group-find {
   max-width: 400px;
   padding: 0;
