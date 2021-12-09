@@ -12,24 +12,40 @@
     <link rel="stylesheet" href="int/css/сommon.css">
 </head>
 <body>
+<div id="menu">
+    <span id="btn-hide-menu"><i class="icon icon-close"></i></span>
+    <ul class="burger">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
 <header class="header" id="site-header">
     <div class="container">
-        <div class="header-nav-group">`
+        <div class="header-nav-group">
             <div class="wrapper-nav align-items-center">
-                    <div class="nav-group align-items-center">
-                        <a href="#" class="header-logo"><img src="int/img/logo-svg.svg" alt="group"></a>
-                        <a href="#home" class="nav-link-active">Home</a>
-                        <a href="#about-me" class="nav-link">About Me</a>
-                        <a href="#skills" class="nav-link">Skills</a>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="nav-group">
+                            <a href="#" class="header-logo"><img src="int/img/logo-svg.svg" alt="group"></a>
+                            <a class="d-lg-none" id="btn-show-menu"><i class="icon icon-menu"></i></a>
+                        </div>
                     </div>
-                    <div class="nav">
-                        <a href="#technology" class="nav-link">Technology</a>
-                        <a href="#contact" class="nav-link">Contact</a>
-                       <div class="language-group">
-                           <a href="index.html" class="language ">En</a>
-                           <a href="ua-html.html" class="language active">Ua</a>
-                       </div>
+                    <div class="col-10">
+                        <div class="nav">
+                            <a href="#home" class="nav-link">Home</a>
+                            <a href="#about-me" class="nav-link">About Me</a>
+                            <a href="#skills" class="nav-link">Skills</a>
+                            <a href="#contact" class="nav-link">Contact</a>
+                            <div class="language-group">
+                                <a href="index.html" class="language active">En</a>
+                                <a href="ua-html.html" class="language active">Ua</a>
+                            </div>
+                        </div>
                     </div>
+                </div>
             </div>
         </div>
     </div>

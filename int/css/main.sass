@@ -17,7 +17,7 @@ a
 //header start
 #site-header
 		position: fixed
-		height: 120px
+		height: 100px
 		top: 0
 		width: 100%
 		z-index: 100
@@ -41,41 +41,11 @@ a
 	box-shadow: 0 1px 25px rgba(0,0,0, .1)
 
 	.header-nav-group
-
-		.wrapper-nav
-			display: flex
-			justify-content: space-between
+		padding: 25px
 
 		.nav-group
 			display: flex
 
-
-			.nav-link-active
-				padding: 8px 16px
-				display: inline-block
-				font-size: 20px
-				font-family: 'RobotoSlab-Regular', sans-serif
-				color: $darkColor
-				-webkit-transition: 2s ease
-
-				&:after
-					display: block
-					content: ""
-					width: 0
-					height: 2px
-					background-color: $darkColor
-					-webkit-transition: width .3s ease-in-out
-					-moz-transition: width .3s ease-in-out
-					transition: width .3s ease-in-out
-				&:hover
-					transform: scale(1.1)
-					transition: 0.3s
-				&:active
-					color: $greenColor
-
-				&:hover:after
-					width: 100%
-					box-shadow: 0 1px 25px rgba(0,0,0, .1)
 
 			.nav-link
 				font-size: 20px
@@ -106,6 +76,8 @@ a
 
 		.nav
 			flex-wrap: nowrap
+			justify-content: flex-end
+
 
 			.nav-link
 				font-size: 20px
@@ -134,26 +106,25 @@ a
 					color: $greenColor
 
 			.language-group
-				padding: 8px 16px
+				padding: 4px 16px
+				display: flex
 
 				.language
-					width: 30px
-					height: 30px
 					border-radius: 100%
 					color: $darkColor
 					text-align: center
 					border: 1px solid $infoColor
-					margin-left: 10px
+					margin-left: 15px
 					padding: 8px
 					-webkit-transition: width .3s ease-in-out
 					-moz-transition: width .3s ease-in-out
 					transition: width .3s ease-in-out
 
 
-
 					&.active:hover
 						transform: scale(1.1)
 						transition: 0.3s
+						background-color: $greenOpacityColor
 
 
 
