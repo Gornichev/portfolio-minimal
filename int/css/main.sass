@@ -113,20 +113,19 @@ a
 					border-radius: 100%
 					color: $darkColor
 					text-align: center
-					border: 1px solid $infoColor
+					border: 1px solid $darkLightColor
 					margin-left: 15px
-					padding: 8px
-					-webkit-transition: width .3s ease-in-out
-					-moz-transition: width .3s ease-in-out
-					transition: width .3s ease-in-out
-
+					padding: 4px
+					-moz-transition: width .5s ease-in-out
+					transition: width .5s ease-in-out
+					-webkit-transition: 0.5s ease
+					opacity: 0.5
 
 					&.active:hover
 						transform: scale(1.1)
-						transition: 0.3s
+						transition: 0.5s
+						opacity: 0.9
 						background-color: $greenOpacityColor
-
-
 
 		.header-logo
 			margin-right: 100px
@@ -200,7 +199,7 @@ a
 //Section-worth
 .section-worth
 	position: relative
-	background-color: $infoBtnColor
+	background-color: $ultralightColor
 	padding: 120px 0
 
 
@@ -212,12 +211,21 @@ a
 			line-height: 51px
 			text-align: center
 			margin-bottom: 68px
+			color: $darkLightColor
 
 		.worth-text
 			font-size: 20px
 			font-family: 'RobotoSlab-Regular', sans-serif
-			line-height: 20px
+			line-height: 25px
 			text-align: center
+			color: $darkLightColor
+
+		.worth-text-work
+			font-size: 20px
+			font-family: 'RobotoSlab-Bold', sans-serif
+			line-height: 25px
+			text-align: center
+
 //section-find
 .section-find
 	margin-bottom: 138px
@@ -384,6 +392,7 @@ a
 .section-mini-start
 	margin-bottom: 130px
 	position: relative
+	background-color: $ultralightColor
 
 	.title-start
 		font-size: 31px

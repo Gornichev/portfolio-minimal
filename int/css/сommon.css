@@ -325,17 +325,19 @@ a {
   border-radius: 100%;
   color: #010303;
   text-align: center;
-  border: 1px solid #41F5C0;
+  border: 1px solid #0C1523;
   margin-left: 15px;
-  padding: 8px;
-  -webkit-transition: width 0.3s ease-in-out;
-  -moz-transition: width 0.3s ease-in-out;
-  transition: width 0.3s ease-in-out;
+  padding: 4px;
+  -moz-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease;
+  opacity: 0.5;
 }
 .header .header-nav-group .nav .language-group .language.active:hover {
   transform: scale(1.1);
-  transition: 0.3s;
-  background-color: rgba(238, 252, 238, 0.87);
+  transition: 0.5s;
+  opacity: 0.9;
+  background-color: rgba(0, 255, 0, 0.11);
 }
 .header .header-nav-group .header-logo {
   margin-right: 100px;
@@ -405,7 +407,7 @@ a {
 
 .section-worth {
   position: relative;
-  background-color: rgba(65, 245, 192, 0.16);
+  background-color: #FCF5FF;
   padding: 120px 0;
 }
 .section-worth .wrapper-worth .worth-title {
@@ -414,11 +416,19 @@ a {
   line-height: 51px;
   text-align: center;
   margin-bottom: 68px;
+  color: #0C1523;
 }
 .section-worth .wrapper-worth .worth-text {
   font-size: 20px;
   font-family: "RobotoSlab-Regular", sans-serif;
-  line-height: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #0C1523;
+}
+.section-worth .wrapper-worth .worth-text-work {
+  font-size: 20px;
+  font-family: "RobotoSlab-Bold", sans-serif;
+  line-height: 25px;
   text-align: center;
 }
 
@@ -576,6 +586,7 @@ a {
 .section-mini-start {
   margin-bottom: 130px;
   position: relative;
+  background-color: #FCF5FF;
 }
 .section-mini-start .title-start {
   font-size: 31px;
@@ -681,7 +692,7 @@ a {
   margin-right: 0;
 }
 .header .header-nav-group .nav .language-group .language {
-  padding: 13px;
+  padding: 6px;
 }
 
 .section-find .wrapper-section-find .wrapper-group-find {
