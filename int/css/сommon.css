@@ -412,9 +412,6 @@ a {
   background-size: cover;
   background-position: center;
 }
-.section-worth .wrapper-worth {
-  padding: 30px;
-}
 .section-worth .wrapper-worth .worth-title {
   font-size: 42px;
   font-family: "RobotoSlab-Bold", sans-serif;
@@ -617,6 +614,7 @@ a {
 }
 .section-mini-start img {
   max-height: 400px;
+  box-shadow: 0 0 5px rgba(33, 33, 33, 0.76);
 }
 
 .section-review {
