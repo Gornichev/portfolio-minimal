@@ -655,11 +655,18 @@ a {
   max-width: 529px;
 }
 .section-review .item-review-full .item-review {
+  background: #FFFFFF;
   text-align: center;
   border-radius: 13px;
   border: 1px rgba(65, 245, 192, 0.2) solid;
   padding: 35px 40px 40px;
   box-shadow: 0 0 5px rgba(33, 33, 33, 0.2);
+  -webkit-transition: 0.3s ease;
+}
+.section-review .item-review-full .item-review:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  transform: scale(1.1);
+  transition: 0.3s;
 }
 .section-review .item-review-full .item-review .icon {
   font-size: 50px;
