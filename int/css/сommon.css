@@ -407,10 +407,8 @@ a {
 
 .section-worth {
   position: relative;
+  background-color: #FCF5FF;
   padding: 120px 0;
-  background-image: url("../img/sea.jpg");
-  background-size: cover;
-  background-position: center;
 }
 .section-worth .wrapper-worth .worth-title {
   font-size: 42px;
@@ -592,9 +590,7 @@ a {
 .section-mini-start {
   margin-bottom: 130px;
   position: relative;
-  background-image: url("../img/sea.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: #FCF5FF;
 }
 .section-mini-start .title-start {
   font-size: 31px;
