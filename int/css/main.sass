@@ -91,7 +91,7 @@ a
 					content: ""
 					width: 0
 					height: 2px
-					background-color: $darkColor
+					background-color: $minimalLightColor
 					-webkit-transition: width .3s ease-in-out
 					-moz-transition: width .3s ease-in-out
 					transition: width .3s ease-in-out
@@ -125,7 +125,7 @@ a
 						transform: scale(1.1)
 						transition: 0.5s
 						opacity: 0.9
-						background-color: $greenOpacityColor
+						background-color: $minimalLightColor
 
 		.header-logo
 			margin-right: 100px
@@ -165,7 +165,7 @@ a
 //intro
 .section-intro
 	padding-top: 120px
-	padding-bottom: 220px
+	padding-bottom: 330px
 	position: relative
 	background-color: $mainColor
 
@@ -204,9 +204,14 @@ a
 //Section-worth
 .section-worth
 	position: relative
-	padding: 120px 0
+	padding: 100px 0
+	background: $mainColor
 
 	.wrapper-worth
+		background: $minimalLightColor
+		box-shadow: 0 0 3px rgba(33,33,33,.2)
+		border-radius: 20px
+		padding: 40px
 
 		.worth-title
 			font-size: 42px
@@ -405,6 +410,8 @@ a
 .section-mini-start
 	margin-bottom: 130px
 	position: relative
+	background: $mainColor
+	padding: 100px 0
 
 	.title-start
 		font-size: 31px
@@ -424,11 +431,11 @@ a
 	img
 		max-height: 400px
 		box-shadow: 0 0 5px rgba(33, 33, 33, 0.76)
+		border-radius: 20px
 
 //section-review
 .section-review
 	padding: 120px 0 200px
-	background: $mainColor
 	position: relative
 
 	.title-review

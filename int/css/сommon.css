@@ -301,7 +301,7 @@ a {
   content: "";
   width: 0;
   height: 2px;
-  background-color: #0C1523;
+  background-color: #FAFBFF;
   -webkit-transition: width 0.3s ease-in-out;
   -moz-transition: width 0.3s ease-in-out;
   transition: width 0.3s ease-in-out;
@@ -325,7 +325,7 @@ a {
   border-radius: 100%;
   color: #0C1523;
   text-align: center;
-  border: 1px solid #b8bed0;
+  border: 1px solid #0C1523;
   margin-left: 15px;
   padding: 4px;
   -moz-transition: width 0.5s ease-in-out;
@@ -337,7 +337,7 @@ a {
   transform: scale(1.1);
   transition: 0.5s;
   opacity: 0.9;
-  background-color: rgba(0, 255, 0, 0.11);
+  background-color: #FAFBFF;
 }
 .header .header-nav-group .header-logo {
   margin-right: 100px;
@@ -378,7 +378,7 @@ a {
 
 .section-intro {
   padding-top: 120px;
-  padding-bottom: 220px;
+  padding-bottom: 330px;
   position: relative;
   background-color: #FFFFFF;
 }
@@ -414,7 +414,14 @@ a {
 
 .section-worth {
   position: relative;
-  padding: 120px 0;
+  padding: 100px 0;
+  background: #FFFFFF;
+}
+.section-worth .wrapper-worth {
+  background: #FAFBFF;
+  box-shadow: 0 0 3px rgba(33, 33, 33, 0.2);
+  border-radius: 20px;
+  padding: 40px;
 }
 .section-worth .wrapper-worth .worth-title {
   font-size: 42px;
@@ -422,7 +429,7 @@ a {
   line-height: 51px;
   text-align: center;
   margin-bottom: 68px;
-  color: #b8bed0;
+  color: #0C1523;
   text-shadow: 2px 0 1px rgba(68, 68, 68, 0.7);
 }
 .section-worth .wrapper-worth .worth-text {
@@ -430,7 +437,7 @@ a {
   font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 25px;
   text-align: center;
-  color: #b8bed0;
+  color: #0C1523;
 }
 .section-worth .wrapper-worth .worth-text-work {
   font-size: 20px;
@@ -457,7 +464,7 @@ a {
   font-size: 42px;
   font-family: "RobotoSlab-Bold", sans-serif;
   line-height: 52px;
-  color: #b8bed0;
+  color: #0C1523;
   margin-bottom: 40px;
   max-width: 330px;
   text-shadow: 2px 0 1px rgba(68, 68, 68, 0.7);
@@ -486,7 +493,7 @@ a {
   margin-bottom: 15px;
 }
 .section-find .wrapper-section-find .find-item .find-item-element {
-  background-color: rgba(65, 245, 192, 0.16);
+  background-color: rgba(65, 245, 192, 0.1);
   border: none;
   border-radius: 5px;
   font-size: 18px;
@@ -519,7 +526,7 @@ a {
   content: "";
   width: 8px;
   height: 8px;
-  background: #b8bed0;
+  background: #0C1523;
   top: 8px;
   left: 15px;
   transform: rotate(45deg);
@@ -600,6 +607,8 @@ a {
 .section-mini-start {
   margin-bottom: 130px;
   position: relative;
+  background: #FFFFFF;
+  padding: 100px 0;
 }
 .section-mini-start .title-start {
   font-size: 31px;
@@ -620,11 +629,11 @@ a {
 .section-mini-start img {
   max-height: 400px;
   box-shadow: 0 0 5px rgba(33, 33, 33, 0.76);
+  border-radius: 20px;
 }
 
 .section-review {
   padding: 120px 0 200px;
-  background: #FFFFFF;
   position: relative;
 }
 .section-review .title-review {
