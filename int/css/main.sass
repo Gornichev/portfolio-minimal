@@ -50,7 +50,7 @@ a
 			.nav-link
 				font-size: 20px
 				font-family: 'RobotoSlab-Regular', sans-serif
-				color: $darkLightColor
+				color: $darkColor
 				margin-left: 22px
 				-webkit-transition: 0.5s ease
 
@@ -82,7 +82,7 @@ a
 			.nav-link
 				font-size: 20px
 				font-family: 'RobotoSlab-Regular', sans-serif
-				color: $darkLightColor
+				color: $minimalLightColor
 				margin-left: 32px
 				-webkit-transition: 0.5s ease
 
@@ -133,6 +133,9 @@ a
 			img
 				height: 60px
 				opacity: 0.7
+.background-img
+	background: url("../img/bg-ava-2.png") no-repeat top right
+	background-size: 760px
 
 .background
 
@@ -162,7 +165,9 @@ a
 //intro
 .section-intro
 	padding-top: 120px
+	padding-bottom: 220px
 	position: relative
+	background-color: $mainColor
 
 	.wrapper-intro
 		padding-top: 100px
@@ -177,7 +182,7 @@ a
 			max-width: 295px
 
 		.intro-title
-			font-size: 75px
+			font-size: 70px
 			font-family: 'RobotoSlab-Bold', sans-serif
 			line-height: 91px
 			margin-bottom: 36px
@@ -199,7 +204,6 @@ a
 //Section-worth
 .section-worth
 	position: relative
-	background-color: $ultralightColor
 	padding: 120px 0
 
 	.wrapper-worth
@@ -230,6 +234,8 @@ a
 .section-find
 	margin-bottom: 138px
 	position: relative
+	background-color: $mainColor
+
 
 	.wrapper-section-find
 		padding: 120px 50px
@@ -239,6 +245,7 @@ a
 			max-width: 400px
 			padding-left: 50px
 			padding-top: 24px
+
 
 
 			.title-find
@@ -251,6 +258,9 @@ a
 				text-shadow: 2px 0 1px rgba(68, 68, 68, 0.70)
 
 		.find-item
+			color: $mainColor
+			margin: 0 auto
+			text-align: center
 			overflow: hidden
 			max-width: 458px
 			max-height: 300px
@@ -395,7 +405,6 @@ a
 .section-mini-start
 	margin-bottom: 130px
 	position: relative
-	background-color: $ultralightColor
 
 	.title-start
 		font-size: 31px
@@ -418,9 +427,8 @@ a
 
 //section-review
 .section-review
-	margin-bottom: 80px
-	padding: 120px 0
-	color: $minimalLightColor
+	padding: 120px 0 200px
+	background: $mainColor
 	position: relative
 
 	.title-review
