@@ -233,7 +233,7 @@ a {
   z-index: 100;
   transition: all 0.3s ease;
   border-bottom: 1px solid #010303;
-  background: rgba(255, 255, 255, 0.32);
+  background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 1px 25px rgba(0, 0, 0, 0.1);
 }
 
@@ -407,8 +407,13 @@ a {
 
 .section-worth {
   position: relative;
-  background-color: #FCF5FF;
   padding: 120px 0;
+  background-image: url("../img/sea.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.section-worth .wrapper-worth {
+  padding: 30px;
 }
 .section-worth .wrapper-worth .worth-title {
   font-size: 42px;
@@ -417,6 +422,7 @@ a {
   text-align: center;
   margin-bottom: 68px;
   color: #0C1523;
+  text-shadow: 2px 0 1px rgba(68, 68, 68, 0.7);
 }
 .section-worth .wrapper-worth .worth-text {
   font-size: 20px;
@@ -452,6 +458,7 @@ a {
   color: #0C1523;
   margin-bottom: 40px;
   max-width: 330px;
+  text-shadow: 2px 0 1px rgba(68, 68, 68, 0.7);
 }
 .section-find .wrapper-section-find .find-item {
   overflow: hidden;
@@ -491,6 +498,7 @@ a {
   color: #010303;
   margin-bottom: 17px;
   padding-top: 15px;
+  text-shadow: 1px 0 1px rgba(68, 68, 68, 0.41);
 }
 .section-find .wrapper-section-find .find-item .find-text {
   font-size: 18px;
@@ -523,6 +531,7 @@ a {
   color: #010303;
   text-align: center;
   margin-bottom: 40px;
+  text-shadow: 2px 0 1px rgba(68, 68, 68, 0.7);
 }
 .section-item .item-text {
   font-size: 18px;
@@ -586,7 +595,9 @@ a {
 .section-mini-start {
   margin-bottom: 130px;
   position: relative;
-  background-color: #FCF5FF;
+  background-image: url("../img/sea.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .section-mini-start .title-start {
   font-size: 31px;
@@ -595,12 +606,14 @@ a {
   color: #010303;
   margin-bottom: 15px;
   text-align: center;
+  text-shadow: 1px 0 1px rgba(68, 68, 68, 0.25);
 }
 .section-mini-start .start-text {
   font-size: 18px;
   font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 28px;
   color: #010303;
+  text-shadow: 1px 0 1px rgba(68, 68, 68, 0.23);
 }
 .section-mini-start img {
   max-height: 400px;
@@ -619,6 +632,7 @@ a {
   color: #010303;
   text-align: center;
   margin-bottom: 40px;
+  text-shadow: 2px 0 1px rgba(68, 68, 68, 0.7);
 }
 .section-review .text-review-title {
   font-size: 18px;
@@ -634,6 +648,7 @@ a {
   border-radius: 13px;
   border: 1px rgba(65, 245, 192, 0.2) solid;
   padding: 35px 40px 40px;
+  box-shadow: 0 0 5px rgba(33, 33, 33, 0.2);
 }
 .section-review .item-review-full .item-review .icon {
   font-size: 50px;
