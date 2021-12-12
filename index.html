@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <!--    Swiper-->
     <link rel="stylesheet" href="int/css/animate.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="ext/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="int/css/сommon.css">
 </head>
 <body>
@@ -248,18 +248,21 @@
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="item-review">
-                        <i class="icon icon-phone"></i>
                         <div class="wrapper-tel">
-                            <a href="tel:+380679007006" class="item-photo-name">+380679007006</a>
+                            <a href="tel:+380679007006" class="item-photo-name"><i class="icon icon-phone"></i>+380679007006</a>
                         </div>
-                        <div class="item-photo-text">Telegram</div>
-                        <p class="item-photo-text">WhatsApp</p>
+                        <div class="wrapper-tel">
+                            <a class="item-photo-text" target="_blank" href="https://t.me/GornichevYurii"><i class="icon icon-telegram"></i>Telegram</a>
+                        </div>
+                        <div class="wrapper-tel">
+                            <a class="item-photo-text" target="_blank"  href="https://wa.me/380679007006"><i class="icon icon-whatsapp"></i>WhatsApp</a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="item-review">
                         <i class="icon icon-envelope-regular"></i>
-                        <div class="item-photo-name">gornichev1986@gmail.com</div>
+                        <a  class="item-photo-name" target="_blank" href="mailto:gornichev1986@gmail.com">gornichev1986@gmail.com</a>
                         <div class="item-photo-text">Ukraine</div>
                         <p class="item-photo-text">KYIV</p>
                     </div>
@@ -271,7 +274,6 @@
 <footer class="footer">
     <div class="container">
         <div class="row justify-content-between">
-
             <div class="row justify-content-between align-items-center">
                 <div class="col-auto">
                     <p class="footer-down">© Copyright 2022</p>
@@ -279,7 +281,6 @@
                 <div class="col-4">
                     <div class="wrapper-footer">
                         <a target="_blank" href="https://www.facebook.com/profile.php?id=100011222852447"><img src="int/img/icon-svg/linkidink.svg" alt=""></a>
-                        <a target="_blank" href="https://www.facebook.com/profile.php?id=100011222852447"><img src="int/img/icon-svg/instagram.svg" alt=""></a>
                         <a target="_blank" href="https://www.instagram.com/unclefish_kiev/?hl=ru"><img src="int/img/icon-svg/facebook.svg" alt=""></a>
                         <a target="_blank" href="https://github.com/Gornichev"><img src="int/img/git.svg" alt=""></a>
                     </div>
@@ -291,7 +292,7 @@
         </div>
     </div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+<script src="ext/bootstrap/js/bootstrap.min.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="int/js/wow.min.js"></script>
 <script>new WOW().init = function () {

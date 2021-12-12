@@ -662,6 +662,7 @@ a {
   padding: 35px 40px 40px;
   box-shadow: 0 0 5px rgba(33, 33, 33, 0.2);
   -webkit-transition: 0.3s ease;
+  min-height: 315px;
 }
 .section-review .item-review-full .item-review:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
@@ -669,12 +670,16 @@ a {
   transition: 0.3s;
 }
 .section-review .item-review-full .item-review .icon {
-  font-size: 50px;
+  font-size: 40px;
   color: #00C389;
   text-align: center;
+  margin-right: 10px;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 .section-review .item-review-full .item-review .wrapper-tel {
   margin: 20px 0;
+  text-align: left;
 }
 .section-review .item-review-full .item-review .item-photo-name {
   font-size: 22px;
@@ -682,6 +687,15 @@ a {
   line-height: 27px;
   color: #0C1523;
   margin: 20px 0;
+  -webkit-transition: 0.3s ease;
+}
+.section-review .item-review-full .item-review .item-photo-name:hover {
+  color: #00C389;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.section-review .item-review-full .item-review .item-photo-name:active {
+  color: #00C389;
 }
 .section-review .item-review-full .item-review .item-photo-text {
   font-size: 20px;
@@ -689,6 +703,9 @@ a {
   line-height: 21px;
   color: #0C1523;
   margin-bottom: 10px;
+}
+.section-review .item-review-full .item-review .icon-whatsapp {
+  margin-right: 12px;
 }
 
 .footer {
