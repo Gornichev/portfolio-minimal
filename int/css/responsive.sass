@@ -13,18 +13,23 @@
     .section-item .item-full .item
         min-width: auto
 
-@media (min-width: 991.98px)
-.header
-    .header-nav-group
+@media (max-width: 991.98px)
+    .header
+        .header-nav-group
 
-        .header-logo
-            margin-right: 0
-
-
-        .nav
-            .language-group
-
-                .language
-                    padding: 6px
+            .header-logo
+                margin-right: 0
 
 
+            .nav
+                .language-group
+                    padding: 4px 30px
+
+                    .language
+                        padding: 6px
+
+    #site-header
+        background: $mainColor
+
+    .overlay:before
+        background: none
