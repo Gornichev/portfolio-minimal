@@ -626,15 +626,15 @@ a {
   color: #0C1523;
   text-shadow: 1px 0 1px rgba(68, 68, 68, 0.23);
 }
-.section-mini-start img {
-  max-height: 400px;
-  box-shadow: 0 0 5px rgba(33, 33, 33, 0.76);
-  border-radius: 20px;
-}
 
 .section-review {
   padding: 120px 0 200px;
   position: relative;
+}
+.section-review img {
+  max-height: 400px;
+  box-shadow: 0 0 5px rgba(33, 33, 33, 0.76);
+  border-radius: 20px;
 }
 .section-review .title-review {
   font-size: 42px;
@@ -655,22 +655,15 @@ a {
   max-width: 529px;
 }
 .section-review .item-review-full .item-review {
-  background: #FFFFFF;
-  text-align: center;
-  border-radius: 13px;
+  border-radius: 20px;
   border: 1px rgba(65, 245, 192, 0.2) solid;
-  padding: 35px 40px 40px;
   box-shadow: 0 0 5px rgba(33, 33, 33, 0.2);
   -webkit-transition: 0.3s ease;
-  min-height: 315px;
-}
-.section-review .item-review-full .item-review:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
-  transform: scale(1.1);
-  transition: 0.3s;
+  padding: 40px;
+  max-height: 364px;
 }
 .section-review .item-review-full .item-review .icon {
-  font-size: 40px;
+  font-size: 30px;
   color: #00C389;
   text-align: center;
   margin-right: 10px;
@@ -678,7 +671,7 @@ a {
   margin-bottom: 20px;
 }
 .section-review .item-review-full .item-review .wrapper-tel {
-  margin: 20px 0;
+  margin-bottom: 10px;
   text-align: left;
 }
 .section-review .item-review-full .item-review .item-photo-name {
@@ -686,7 +679,6 @@ a {
   font-family: "RobotoSlab-Regular", sans-serif;
   line-height: 27px;
   color: #0C1523;
-  margin: 20px 0;
   -webkit-transition: 0.3s ease;
 }
 .section-review .item-review-full .item-review .item-photo-name:hover {
