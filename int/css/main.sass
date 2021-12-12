@@ -29,7 +29,6 @@ a
 #site-header.hide
 	top: -120px
 
-
 .header
 	margin-bottom: 92px
 	height: 100px
@@ -45,7 +44,6 @@ a
 
 		.nav-group
 			display: flex
-
 
 			.nav-link
 				font-size: 20px
@@ -157,7 +155,6 @@ a
 	top: 0
 	left: 0
 
-
 	.video-background
 		width: 100%
 		z-index: 100
@@ -167,12 +164,10 @@ a
 .section-intro
 	padding-top: 120px
 	padding-bottom: 330px
-	position: relative
 	background-color: $mainColor
 
 	.wrapper-intro
 		padding-top: 100px
-
 
 		.intro-text
 			font-family: 'RobotoSlab-Thin', sans-serif
@@ -189,14 +184,12 @@ a
 			margin-bottom: 36px
 			text-shadow: 2px -1px 1px rgba(68, 68, 68, 0.70)
 
-
 		.intro-mini-text
 			font-size: 32px
 			font-family: 'RobotoSlab-Regular', sans-serif
 			line-height: 40px
 			margin-bottom: 40px
 			text-shadow: 1px -1px 1px rgba(68, 68, 68, 0.38)
-
 
 	.wrapper-img-intro
 		margin: 0 auto
@@ -212,7 +205,7 @@ a
 		background: $minimalLightColor
 		box-shadow: 0 0 3px rgba(33,33,33,.2)
 		border-radius: 20px
-		padding: 40px
+		padding: 40px 40px 60px
 
 		.worth-title
 			font-size: 42px
@@ -242,7 +235,6 @@ a
 	position: relative
 	background-color: $mainColor
 
-
 	.wrapper-section-find
 		padding: 120px 50px
 		color: $minimalLightColor
@@ -251,8 +243,6 @@ a
 			max-width: 400px
 			padding-left: 50px
 			padding-top: 24px
-
-
 
 			.title-find
 				font-size: 42px
@@ -297,7 +287,6 @@ a
 				text-align: center
 				margin: 0 auto
 
-
 			.title-item
 				font-size: 30px
 				font-family: 'RobotoSlab-Regular', sans-serif
@@ -326,12 +315,9 @@ a
 				left: 15px
 				transform: rotate(45deg)
 
-
-
 //section-item
 .section-item
 	margin-bottom: 120px
-	position: relative
 
 	.item-title-had
 		font-size: 42px
@@ -339,7 +325,7 @@ a
 		line-height: 51px
 		color: $darkColor
 		text-align: center
-		margin-bottom: 40px
+		margin-bottom: 68px
 		text-shadow: 2px 0 1px rgba(68, 68, 68, 0.70)
 
 	.item-text
@@ -354,8 +340,6 @@ a
 	.item-full
 		margin-bottom: 60px
 
-
-
 		.item
 			text-align: center
 			padding: 90px 0 90px
@@ -363,7 +347,6 @@ a
 			border: 1px solid $ultralightColor
 			border-radius: 5px
 			color: $lightColor
-
 
 			.icon
 				width: 70px
@@ -389,8 +372,6 @@ a
 				padding: 18px
 				color: $primaryColor
 
-
-
 			.item-title
 				font-size: 31px
 				font-family: 'RobotoSlab-Regular', sans-serif
@@ -405,12 +386,9 @@ a
 				color: $darkColor
 				margin-bottom: 20px
 
-
-
 //section-start
 .section-mini-start
 	margin-bottom: 130px
-	position: relative
 	background: $mainColor
 	padding: 100px 0
 
@@ -430,11 +408,10 @@ a
 		color: $darkColor
 		text-shadow: 1px 0 1px rgba(68, 68, 68, 0.23)
 
-
 //section-review
 .section-review
-	padding: 120px 0 200px
-	position: relative
+	padding: 120px 0
+	margin-bottom: 200px
 
 	img
 		max-height: 400px
@@ -447,7 +424,7 @@ a
 		line-height: 59px
 		color: $darkColor
 		text-align: center
-		margin-bottom: 40px
+		margin-bottom: 68px
 		text-shadow: 2px 0 1px rgba(68, 68, 68, 0.70)
 
 
@@ -464,24 +441,29 @@ a
 
 
 		.item-review
+			color: $minimalLightColor
 			border-radius: 20px
 			border: 1px $infBorderColor solid
 			box-shadow: 0 0 5px rgba(33,33,33,.2)
 			-webkit-transition: 0.3s ease
-			padding: 40px
+			padding: 40px 50px
 			max-height: 364px
+			margin: 0 auto
+			list-style: none
 
 			.icon
 				font-size: 30px
 				color: $greenColor
 				text-align: center
-				margin-right: 10px
+				margin-right: 15px
 				display: inline-block
-				margin-bottom: 20px
 
 			.wrapper-tel
-				margin-bottom: 10px
+				margin-bottom: 30px
 				text-align: left
+
+				&:last-child
+					margin: 0
 
 			.item-photo-name
 				font-size: 22px
@@ -490,16 +472,11 @@ a
 				color: $darkColor
 				-webkit-transition: 0.3s ease
 
-
 				&:hover
 					color: $greenColor
-					transform: scale(1.1)
-					transition: 0.3s
 
 				&:active
 					color: $greenColor
-
-
 
 			.item-photo-text
 				font-size: 20px
@@ -507,10 +484,6 @@ a
 				line-height: 21px
 				color: $darkColor
 				margin-bottom: 10px
-
-			.icon-whatsapp
-				margin-right: 12px
-
 
 .footer
 	padding: 10px 0
