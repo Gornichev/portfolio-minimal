@@ -630,9 +630,14 @@ a {
   margin-bottom: 200px;
 }
 .section-review img {
-  max-height: 400px;
+  max-height: 349px;
   box-shadow: 0 0 5px rgba(33, 33, 33, 0.76);
   border-radius: 20px;
+  -webkit-transition: 0.3s ease;
+}
+.section-review img:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  transition: 0.3s;
 }
 .section-review .title-review {
   font-size: 42px;
@@ -658,20 +663,29 @@ a {
   border: 1px rgba(65, 245, 192, 0.2) solid;
   box-shadow: 0 0 5px rgba(33, 33, 33, 0.2);
   -webkit-transition: 0.3s ease;
-  padding: 40px 50px;
+  padding: 50px 60px;
   max-height: 364px;
   margin: 0 auto;
   list-style: none;
+}
+.section-review .item-review-full .item-review:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  transition: 0.3s;
 }
 .section-review .item-review-full .item-review .icon {
   font-size: 30px;
   color: #00C389;
   text-align: center;
-  margin-right: 15px;
+  margin-right: 20px;
   display: inline-block;
+  -webkit-transition: 0.3s ease;
+}
+.section-review .item-review-full .item-review .icon:hover {
+  color: #0C1523;
+  transition: 0.3s;
 }
 .section-review .item-review-full .item-review .wrapper-tel {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: left;
 }
 .section-review .item-review-full .item-review .wrapper-tel:last-child {
