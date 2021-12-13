@@ -33,3 +33,69 @@
     font-style: normal;
     font-display: auto;
 }
+
+@font-face {
+    font-family: 'Inter-Black';
+    src: url('inter/Inter-Black.svg');
+    src: url('inter/Inter-Black.svg?#iefix') format('embedded-opentype'),
+    url('inter/Inter-Black.svg#Inter-Thin') format('svg'),
+    url('inter/Inter-Black.svg') format('truetype'),
+    url('inter/Inter-Black.svg') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('inter/Inter-Bold.svg');
+    src: url('inter/Inter-Bold.svg?#iefix') format('embedded-opentype'),
+    url('inter/Inter-Bold.svg#Inter-Thin') format('svg'),
+    url('inter/Inter-Bold.svg') format('truetype'),
+    url('inter/Inter-Bold.svg') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('inter/Inter-Regular.svg');
+    src: url('inter/Inter-Regular.svg?#iefix') format('embedded-opentype'),
+    url('inter/Inter-Regular.svg#Inter-Thin') format('svg'),
+    url('inter/Inter-Regular.svg') format('truetype'),
+    url('inter/Inter-Regular.svg') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-ExtraBold';
+    src: url('inter/Inter-ExtraBold.eot');
+    src: url('inter/Inter-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('inter/Inter-ExtraBold.svg#Inter-ExtraBold') format('svg'),
+    url('inter/Inter-ExtraBold.ttf') format('truetype'),
+    url('inter/Inter-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('inter/Inter-SemiBold.eot');
+    src: url('inter/Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('inter/Inter-SemiBold.svg#Inter-SemiBold') format('svg'),
+    url('inter/Inter-SemiBold.ttf') format('truetype'),
+    url('inter/Inter-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url('inter/Inter-Medium.eot');
+    src: url('inter/Inter-Medium.eot?#iefix') format('embedded-opentype'),
+    url('inter/Inter-Medium.svg#Inter-Medium') format('svg'),
+    url('inter/Inter-Medium.ttf') format('truetype'),
+    url('inter/Inter-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
