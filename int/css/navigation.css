@@ -1,3 +1,115 @@
+#btn-show-menu {
+  line-height: 1.2;
+  -webkit-transition: all 0.12s linear;
+  -moz-transition: all 0.12s linear;
+  -o-transition: all 0.12s linear;
+  transition: all 0.12s linear;
+  cursor: pointer;
+}
 
+#btn-show-menu.hide {
+  opacity: 0;
+}
+
+.overlay {
+  overflow: hidden;
+  z-index: 100;
+}
+
+.overlay:before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 101;
+  -webkit-transition: all 0.12s linear;
+  -moz-transition: all 0.12s linear;
+  -o-transition: all 0.12s linear;
+  transition: all 0.12s linear;
+}
+
+#menu {
+  padding: 40px;
+  width: 100%;
+  height: 300px;
+  background-color: #FAFBFF;
+  transform: translateY(-500px);
+  position: fixed;
+  z-index: 102;
+  top: 100px;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: all 0.12s linear;
+  -moz-transition: all 0.12s linear;
+  -o-transition: all 0.12s linear;
+  transition: all 0.12s linear;
+}
+
+#menu.show {
+  transform: translateY(0);
+}
+#menu.show .burger .btn {
+  padding: 0;
+}
+#menu.show .burger .btn .btn .icon {
+  margin-right: 7px;
+  margin-top: 0;
+}
+#menu.show #btn-hide-menu {
+  width: 44px;
+  height: 44px;
+  line-height: 1;
+  text-align: center;
+  position: absolute;
+  top: -60px;
+  right: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #FAFBFF;
+  border-radius: 50%;
+  -webkit-transition: all 0.12s linear;
+  -moz-transition: all 0.12s linear;
+  -o-transition: all 0.12s linear;
+  transition: all 0.12s linear;
+}
+#menu.show #btn-hide-menu .icon {
+  font-size: 30px;
+  line-height: 32px;
+  opacity: 0.5;
+  color: #0C1523;
+  background: rgba(65, 245, 192, 0.2);
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.burger {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+}
+
+.burger li + li {
+  margin-top: 8px;
+}
+
+.burger li a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: all 0.12s linear;
+  -moz-transition: all 0.12s linear;
+  -o-transition: all 0.12s linear;
+  transition: all 0.12s linear;
+}
+
+.burger li a:hover {
+  color: #FFD466;
+}
 
 /*# sourceMappingURL=navigation.css.map */

@@ -22,9 +22,9 @@ a
 		width: 100%
 		z-index: 100
 		transition: all .3s ease
-		border-bottom: 1px solid $darkColor
-		background: rgba(255, 255, 255, 0.2)
-		box-shadow: 0 1px 25px rgba(0,0,0, .1)
+		border-bottom: 1px solid rgba($darkColor, .1)
+		background: rgba(255, 255, 255, 0.93)
+		//box-shadow: 0 1px 25px rgba(0,0,0, .1)
 
 #site-header.hide
 	top: -120px
@@ -37,7 +37,7 @@ a
 	width: 100%
 	z-index: 100
 	transition: all .3s ease
-	box-shadow: 0 1px 25px rgba(0,0,0, .1)
+	//box-shadow: 0 1px 25px rgba(0,0,0, .1)
 
 	.header-nav-group
 		padding: 25px
@@ -119,6 +119,7 @@ a
 					transition: width .5s ease-in-out
 					-webkit-transition: 0.5s ease
 					opacity: 0.5
+					min-width: 34px
 
 					&.active:hover
 						transform: scale(1.1)
@@ -203,7 +204,6 @@ a
 
 	.wrapper-worth
 		background: $minimalLightColor
-		box-shadow: 0 0 3px rgba(33,33,33,.2)
 		border-radius: 20px
 		padding: 40px 40px 60px
 
@@ -236,8 +236,9 @@ a
 	background-color: $mainColor
 
 	.wrapper-section-find
-		padding: 120px 50px
+		padding: 120px 100px
 		color: $minimalLightColor
+		border-radius: 20px
 
 		.wrapper-group-find
 			max-width: 400px
@@ -255,14 +256,14 @@ a
 
 		.find-item
 			color: $mainColor
+			background-color: $mainColor
 			margin: 0 auto
 			text-align: center
 			overflow: hidden
-			max-width: 458px
 			max-height: 300px
 			padding: 50px 80px 50px 50px
 			border-bottom: 3px solid
-			border-radius: 5px
+			border-radius: 15px
 			-webkit-transition: 0.3s ease
 			border-image: linear-gradient(to right, rgba(233, 255, 240, 0.25), rgba(65, 245, 192, 0.78), rgba(65, 245, 192, 0.82), rgba(242, 245, 243, 0.13)) 47% 0
 
@@ -416,7 +417,7 @@ a
 
 	img
 		max-height: 349px
-		box-shadow: 0 0 5px rgba(33, 33, 33, 0.76)
+		//box-shadow: 0 0 5px rgba(33, 33, 33, 0.76)
 		border-radius: 20px
 		-webkit-transition: 0.3s ease
 
@@ -448,10 +449,11 @@ a
 		.item-review
 			color: $mainColor
 			border-radius: 20px
-			border: 1px $infBorderColor solid
-			box-shadow: 0 0 5px rgba(33,33,33,.2)
+			background-color: $minimalLightColor
+			//border: 1px $infBorderColor solid
+			//box-shadow: 0 0 5px rgba(33,33,33,.2)
 			-webkit-transition: 0.3s ease
-			padding: 50px 60px
+			padding: 50px 35px
 			max-height: 364px
 			margin: 0 auto
 			list-style: none
@@ -467,6 +469,8 @@ a
 				margin-right: 20px
 				display: inline-block
 				-webkit-transition: 0.3s ease
+				position: relative
+				top: 5px
 
 				&:hover
 					color: $darkLightColor
@@ -501,7 +505,7 @@ a
 
 .footer
 	padding: 10px 0
-	background-color: $ultralightColor
+	background-color: $minimalLightColor
 	position: relative
 
 	.wrapper-footer
@@ -523,6 +527,7 @@ a
 		color: $darkColor
 		float: right
 		text-align: center
+		margin-bottom: 0
 
 		.color-footer
 			font-size: 22px

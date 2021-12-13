@@ -29,6 +29,10 @@
   padding-right: 0 !important;
 }
 
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
 .mb-40 {
   margin-bottom: 40px !important;
 }
@@ -44,6 +48,10 @@
 
 .mb-30 {
   margin-bottom: 30px !important;
+}
+
+.bg-light {
+  background-color: #FAFBFF !important;
 }
 
 .section_carousel {
@@ -237,9 +245,8 @@ a {
   width: 100%;
   z-index: 100;
   transition: all 0.3s ease;
-  border-bottom: 1px solid #0C1523;
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 1px 25px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(12, 21, 35, 0.1);
+  background: rgba(255, 255, 255, 0.93);
 }
 
 #site-header.hide {
@@ -254,7 +261,6 @@ a {
   width: 100%;
   z-index: 100;
   transition: all 0.3s ease;
-  box-shadow: 0 1px 25px rgba(0, 0, 0, 0.1);
 }
 .header .header-nav-group {
   padding: 25px;
@@ -337,6 +343,7 @@ a {
   transition: width 0.5s ease-in-out;
   -webkit-transition: 0.5s ease;
   opacity: 0.5;
+  min-width: 34px;
 }
 .header .header-nav-group .nav .language-group .language.active:hover {
   transform: scale(1.1);
@@ -423,7 +430,6 @@ a {
 }
 .section-worth .wrapper-worth {
   background: #FAFBFF;
-  box-shadow: 0 0 3px rgba(33, 33, 33, 0.2);
   border-radius: 20px;
   padding: 40px 40px 60px;
 }
@@ -456,8 +462,9 @@ a {
   background-color: #FFFFFF;
 }
 .section-find .wrapper-section-find {
-  padding: 120px 50px;
+  padding: 120px 100px;
   color: #FAFBFF;
+  border-radius: 20px;
 }
 .section-find .wrapper-section-find .wrapper-group-find {
   max-width: 400px;
@@ -475,14 +482,14 @@ a {
 }
 .section-find .wrapper-section-find .find-item {
   color: #FFFFFF;
+  background-color: #FFFFFF;
   margin: 0 auto;
   text-align: center;
   overflow: hidden;
-  max-width: 458px;
   max-height: 300px;
   padding: 50px 80px 50px 50px;
   border-bottom: 3px solid;
-  border-radius: 5px;
+  border-radius: 15px;
   -webkit-transition: 0.3s ease;
   border-image: linear-gradient(to right, rgba(233, 255, 240, 0.25), rgba(65, 245, 192, 0.78), rgba(65, 245, 192, 0.82), rgba(242, 245, 243, 0.13)) 47% 0;
 }
@@ -636,7 +643,6 @@ a {
 }
 .section-review img {
   max-height: 349px;
-  box-shadow: 0 0 5px rgba(33, 33, 33, 0.76);
   border-radius: 20px;
   -webkit-transition: 0.3s ease;
 }
@@ -665,10 +671,9 @@ a {
 .section-review .item-review-full .item-review {
   color: #FFFFFF;
   border-radius: 20px;
-  border: 1px rgba(65, 245, 192, 0.2) solid;
-  box-shadow: 0 0 5px rgba(33, 33, 33, 0.2);
+  background-color: #FAFBFF;
   -webkit-transition: 0.3s ease;
-  padding: 50px 60px;
+  padding: 50px 35px;
   max-height: 364px;
   margin: 0 auto;
   list-style: none;
@@ -684,6 +689,8 @@ a {
   margin-right: 20px;
   display: inline-block;
   -webkit-transition: 0.3s ease;
+  position: relative;
+  top: 5px;
 }
 .section-review .item-review-full .item-review .icon:hover {
   color: #0C1523;
@@ -719,7 +726,7 @@ a {
 
 .footer {
   padding: 10px 0;
-  background-color: #FCF5FF;
+  background-color: #FAFBFF;
   position: relative;
 }
 .footer .wrapper-footer {
@@ -741,6 +748,7 @@ a {
   color: #0C1523;
   float: right;
   text-align: center;
+  margin-bottom: 0;
 }
 .footer .footer-down .color-footer {
   font-size: 22px;
