@@ -632,6 +632,7 @@ a {
 .section-review {
   padding: 120px 0;
   margin-bottom: 200px;
+  color: #FAFBFF;
 }
 .section-review img {
   max-height: 349px;
@@ -662,7 +663,7 @@ a {
   max-width: 529px;
 }
 .section-review .item-review-full .item-review {
-  color: #FAFBFF;
+  color: #FFFFFF;
   border-radius: 20px;
   border: 1px rgba(65, 245, 192, 0.2) solid;
   box-shadow: 0 0 5px rgba(33, 33, 33, 0.2);
