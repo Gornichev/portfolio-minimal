@@ -1,4 +1,5 @@
 @import "../fonts/fonts.css";
+@import "../fonts/inter/font.css";
 @import "../icon/style.css";
 .btn {
   padding: 15px 25px;
@@ -270,7 +271,7 @@ a {
 }
 .header .header-nav-group .nav-group .nav-link {
   font-size: 20px;
-  font-family: "RobotoSlab-Regular", sans-serif;
+  font-family: "Inter-Medium", sans-serif;
   color: #0C1523;
   margin-left: 22px;
   -webkit-transition: 0.5s ease;
@@ -333,6 +334,7 @@ a {
   display: flex;
 }
 .header .header-nav-group .nav .language-group .language {
+  font-family: "Inter-Medium", sans-serif;
   border-radius: 100%;
   color: #0C1523;
   text-align: center;
@@ -397,7 +399,7 @@ a {
   padding-top: 100px;
 }
 .section-intro .wrapper-intro .intro-text {
-  font-family: "RobotoSlab-Thin", sans-serif;
+  font-family: "Inter-Regular", sans-serif;
   font-size: 43px;
   line-height: 69px;
   color: #0C1523;
@@ -406,14 +408,15 @@ a {
 }
 .section-intro .wrapper-intro .intro-title {
   font-size: 70px;
-  font-family: "RobotoSlab-Bold", sans-serif;
+  font-family: "Inter-SemiBold", sans-serif;
   line-height: 91px;
   margin-bottom: 36px;
   text-shadow: 2px -1px 1px rgba(68, 68, 68, 0.7);
+  letter-spacing: 0.5px;
 }
 .section-intro .wrapper-intro .intro-mini-text {
   font-size: 32px;
-  font-family: "RobotoSlab-Regular", sans-serif;
+  font-family: "Inter-Medium", sans-serif;
   line-height: 40px;
   margin-bottom: 40px;
   text-shadow: 1px -1px 1px rgba(68, 68, 68, 0.38);
@@ -435,7 +438,8 @@ a {
 }
 .section-worth .wrapper-worth .worth-title {
   font-size: 42px;
-  font-family: "RobotoSlab-Bold", sans-serif;
+  letter-spacing: 0.7px;
+  font-family: "Inter-SemiBold", sans-serif;
   line-height: 51px;
   text-align: center;
   margin-bottom: 68px;
@@ -444,14 +448,16 @@ a {
 }
 .section-worth .wrapper-worth .worth-text {
   font-size: 20px;
-  font-family: "RobotoSlab-Regular", sans-serif;
+  font-family: "Inter-Regular", sans-serif;
   line-height: 25px;
   text-align: center;
   color: #0C1523;
+  letter-spacing: 0.7px;
 }
 .section-worth .wrapper-worth .worth-text-work {
   font-size: 20px;
-  font-family: "RobotoSlab-Bold", sans-serif;
+  font-family: "Inter-Medium", sans-serif;
+  letter-spacing: 0.5px;
   line-height: 25px;
   text-align: center;
 }
@@ -473,7 +479,8 @@ a {
 }
 .section-find .wrapper-section-find .wrapper-group-find .title-find {
   font-size: 42px;
-  font-family: "RobotoSlab-Bold", sans-serif;
+  font-family: "Inter-SemiBold", sans-serif;
+  letter-spacing: 0.7px;
   line-height: 52px;
   color: #0C1523;
   margin-bottom: 40px;
@@ -490,6 +497,7 @@ a {
   padding: 50px 80px 50px 50px;
   border-bottom: 3px solid;
   border-radius: 15px;
+  list-style: none;
   -webkit-transition: 0.3s ease;
   border-image: linear-gradient(to right, rgba(233, 255, 240, 0.25), rgba(65, 245, 192, 0.78), rgba(65, 245, 192, 0.82), rgba(242, 245, 243, 0.13)) 47% 0;
 }
@@ -516,7 +524,8 @@ a {
 }
 .section-find .wrapper-section-find .find-item .title-item {
   font-size: 30px;
-  font-family: "RobotoSlab-Regular", sans-serif;
+  font-family: "Inter-Medium", sans-serif;
+  letter-spacing: 0.7px;
   line-height: 35px;
   color: #0C1523;
   margin-bottom: 17px;
@@ -525,11 +534,12 @@ a {
 }
 .section-find .wrapper-section-find .find-item .find-text {
   font-size: 18px;
-  font-family: "RobotoSlab-Regular", sans-serif;
+  font-family: "Inter-Regular", sans-serif;
   line-height: 27px;
   color: #0C1523;
   margin-bottom: 20px;
   position: relative;
+  letter-spacing: 0.7px;
 }
 .section-find .wrapper-section-find .find-item .find-text:after {
   position: absolute;
@@ -548,21 +558,13 @@ a {
 }
 .section-item .item-title-had {
   font-size: 42px;
-  font-family: "RobotoSlab-Bold", sans-serif;
+  font-family: "Inter-SemiBold", sans-serif;
+  letter-spacing: 0.6px;
   line-height: 51px;
   color: #0C1523;
   text-align: center;
   margin-bottom: 68px;
   text-shadow: 2px 0 1px rgba(68, 68, 68, 0.7);
-}
-.section-item .item-text {
-  font-size: 18px;
-  font-family: "RobotoSlab-Thin", sans-serif;
-  line-height: 33px;
-  color: #0C1523;
-  text-align: center;
-  max-width: 530px;
-  margin: 0 auto 60px;
 }
 .section-item .item-full {
   margin-bottom: 60px;
@@ -652,7 +654,8 @@ a {
 }
 .section-review .title-review {
   font-size: 42px;
-  font-family: "RobotoSlab-Bold", sans-serif;
+  font-family: "Inter-SemiBold", sans-serif;
+  letter-spacing: 0.6px;
   line-height: 59px;
   color: #0C1523;
   text-align: center;
@@ -705,7 +708,7 @@ a {
 }
 .section-review .item-review-full .item-review .item-photo-name {
   font-size: 22px;
-  font-family: "RobotoSlab-Regular", sans-serif;
+  font-family: "Inter-Medium", sans-serif;
   line-height: 27px;
   color: #0C1523;
   -webkit-transition: 0.3s ease;
@@ -743,7 +746,7 @@ a {
 }
 .footer .footer-down {
   font-size: 14px;
-  font-family: "RobotoSlab-Regular", sans-serif;
+  font-family: "Inter-Regular", sans-serif;
   line-height: 20px;
   color: #0C1523;
   float: right;
@@ -752,7 +755,7 @@ a {
 }
 .footer .footer-down .color-footer {
   font-size: 22px;
-  font-family: "RobotoSlab-Bold", sans-serif;
+  font-family: "Inter-SemiBold", sans-serif;
   line-height: 21px;
   color: #00C389;
   display: block;
