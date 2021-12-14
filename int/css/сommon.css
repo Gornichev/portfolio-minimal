@@ -281,6 +281,7 @@ a {
   content: "";
   width: 0;
   height: 2px;
+  opacity: 0.2;
   background-color: #0C1523;
   -webkit-transition: width 0.3s ease-in-out;
   -moz-transition: width 0.3s ease-in-out;
@@ -411,7 +412,7 @@ a {
   font-family: "Inter-SemiBold", sans-serif;
   line-height: 91px;
   margin-bottom: 36px;
-  text-shadow: 2px -1px 1px rgba(68, 68, 68, 0.7);
+  text-shadow: 1px -1px 1px rgba(68, 68, 68, 0.7);
   letter-spacing: 0.5px;
 }
 .section-intro .wrapper-intro .intro-mini-text {
@@ -419,7 +420,6 @@ a {
   font-family: "Inter-Medium", sans-serif;
   line-height: 40px;
   margin-bottom: 40px;
-  text-shadow: 1px -1px 1px rgba(68, 68, 68, 0.38);
 }
 .section-intro .wrapper-img-intro {
   margin: 0 auto;
@@ -434,7 +434,7 @@ a {
 .section-worth .wrapper-worth {
   background: #FAFBFF;
   border-radius: 20px;
-  padding: 40px 40px 60px;
+  padding: 40px 15px 60px;
 }
 .section-worth .wrapper-worth .worth-title {
   font-size: 42px;
@@ -449,17 +449,19 @@ a {
 .section-worth .wrapper-worth .worth-text {
   font-size: 20px;
   font-family: "Inter-Regular", sans-serif;
-  line-height: 25px;
+  line-height: 38px;
   text-align: center;
   color: #0C1523;
-  letter-spacing: 0.7px;
+  position: relative;
 }
 .section-worth .wrapper-worth .worth-text-work {
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Inter-Medium", sans-serif;
-  letter-spacing: 0.5px;
-  line-height: 25px;
+  line-height: 35px;
   text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .section-find {
@@ -485,7 +487,7 @@ a {
   color: #0C1523;
   margin-bottom: 40px;
   max-width: 330px;
-  text-shadow: 2px 0 1px rgba(68, 68, 68, 0.7);
+  text-shadow: 1px 0 1px rgba(68, 68, 68, 0.7);
 }
 .section-find .wrapper-section-find .find-item {
   color: #FFFFFF;
@@ -503,7 +505,7 @@ a {
 }
 .section-find .wrapper-section-find .find-item:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: 0.3s;
 }
 .section-find .wrapper-section-find .find-item .icon {
@@ -564,7 +566,7 @@ a {
   color: #0C1523;
   text-align: center;
   margin-bottom: 68px;
-  text-shadow: 2px 0 1px rgba(68, 68, 68, 0.7);
+  text-shadow: 1px 0 1px rgba(68, 68, 68, 0.7);
 }
 .section-item .item-full {
   margin-bottom: 60px;
@@ -660,7 +662,7 @@ a {
   color: #0C1523;
   text-align: center;
   margin-bottom: 68px;
-  text-shadow: 2px 0 1px rgba(68, 68, 68, 0.7);
+  text-shadow: 1px 0 1px rgba(68, 68, 68, 0.7);
 }
 .section-review .text-review-title {
   font-size: 18px;
@@ -681,10 +683,6 @@ a {
   margin: 0 auto;
   list-style: none;
 }
-.section-review .item-review-full .item-review:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
-  transition: 0.3s;
-}
 .section-review .item-review-full .item-review .icon {
   font-size: 30px;
   color: #00C389;
@@ -697,7 +695,6 @@ a {
 }
 .section-review .item-review-full .item-review .icon:hover {
   color: #0C1523;
-  transition: 0.3s;
 }
 .section-review .item-review-full .item-review .wrapper-tel {
   margin-bottom: 20px;
@@ -718,6 +715,11 @@ a {
 }
 .section-review .item-review-full .item-review .item-photo-name:active {
   color: #00C389;
+}
+.section-review .item-review-full .item-review .item-photo-name a:hover {
+  color: #00C389;
+  transition: 0.3s;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 .section-review .item-review-full .item-review .item-photo-text {
   font-size: 20px;

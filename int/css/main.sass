@@ -56,6 +56,7 @@ a
 					content: ""
 					width: 0
 					height: 2px
+					opacity: 0.2
 					background-color: $darkColor
 					-webkit-transition: width .3s ease-in-out
 					-moz-transition: width .3s ease-in-out
@@ -183,7 +184,7 @@ a
 			font-family: 'Inter-SemiBold', sans-serif
 			line-height: 91px
 			margin-bottom: 36px
-			text-shadow: 2px -1px 1px rgba(68, 68, 68, 0.70)
+			text-shadow: 1px -1px 1px rgba(68, 68, 68, 0.70)
 			letter-spacing: 0.5px
 
 		.intro-mini-text
@@ -191,7 +192,6 @@ a
 			font-family: 'Inter-Medium', sans-serif
 			line-height: 40px
 			margin-bottom: 40px
-			text-shadow: 1px -1px 1px rgba(68, 68, 68, 0.38)
 
 	.wrapper-img-intro
 		margin: 0 auto
@@ -206,7 +206,7 @@ a
 	.wrapper-worth
 		background: $minimalLightColor
 		border-radius: 20px
-		padding: 40px 40px 60px
+		padding: 40px 15px 60px
 
 		.worth-title
 			font-size: 42px
@@ -221,17 +221,19 @@ a
 		.worth-text
 			font-size: 20px
 			font-family: 'Inter-Regular', sans-serif
-			line-height: 25px
+			line-height: 38px
 			text-align: center
 			color: $darkLightColor
-			letter-spacing: 0.7px
+			position: relative
 
 		.worth-text-work
-			font-size: 20px
+			font-size: 22px
 			font-family: 'Inter-Medium', sans-serif
-			letter-spacing: 0.5px
-			line-height: 25px
+			line-height: 35px
 			text-align: center
+			list-style: none
+			margin: 0
+			padding: 0
 
 //section-find
 .section-find
@@ -257,7 +259,7 @@ a
 				color: $darkLightColor
 				margin-bottom: 40px
 				max-width: 330px
-				text-shadow: 2px 0 1px rgba(68, 68, 68, 0.70)
+				text-shadow: 1px 0 1px rgba(68, 68, 68, 0.70)
 
 		.find-item
 			color: $mainColor
@@ -275,7 +277,7 @@ a
 
 			&:hover
 				box-shadow: 0 0 11px rgba(33,33,33,.2)
-				transform: scale(1.1)
+				transform: scale(1.05)
 				transition: 0.3s
 
 			.icon
@@ -336,7 +338,7 @@ a
 		color: $darkColor
 		text-align: center
 		margin-bottom: 68px
-		text-shadow: 2px 0 1px rgba(68, 68, 68, 0.70)
+		text-shadow: 1px 0 1px rgba(68, 68, 68, 0.70)
 
 	.item-full
 		margin-bottom: 60px
@@ -433,7 +435,7 @@ a
 		color: $darkColor
 		text-align: center
 		margin-bottom: 68px
-		text-shadow: 2px 0 1px rgba(68, 68, 68, 0.70)
+		text-shadow: 1px 0 1px rgba(68, 68, 68, 0.70)
 
 
 	.text-review-title
@@ -457,10 +459,6 @@ a
 			margin: 0 auto
 			list-style: none
 
-			&:hover
-				box-shadow: 0 0 11px rgba(33,33,33,.2)
-				transition: 0.3s
-
 			.icon
 				font-size: 30px
 				color: $greenColor
@@ -473,7 +471,6 @@ a
 
 				&:hover
 					color: $darkLightColor
-					transition: 0.3s
 
 			.wrapper-tel
 				margin-bottom: 20px
@@ -494,6 +491,11 @@ a
 
 				&:active
 					color: $greenColor
+
+				a:hover
+					color: $greenColor
+					transition: 0.3s
+					box-shadow: 0 0 11px rgba(33,33,33,.2)
 
 			.item-photo-text
 				font-size: 20px
