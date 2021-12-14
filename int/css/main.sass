@@ -135,8 +135,18 @@ a
 				height: 60px
 				opacity: 0.7
 .background-img
-	background: url("../img/bg-ava-2.png") no-repeat top right
+	background-image: url("../img/bg-ava-2.png")
+	background-repeat: no-repeat
+	background-position: right
 	background-size: 760px
+
+	.background-img-clone
+		background-image: url("../img/bg-ava-2.png")
+		background-repeat: no-repeat
+		background-position: right
+		background-size: 760px
+		width: 100%
+		height: auto
 
 .background
 
@@ -449,6 +459,9 @@ a
 
 	.item-review-full
 
+		.wrapper-img-contact
+			text-align: center
+
 		.item-review
 			color: $mainColor
 			border-radius: 20px
@@ -458,6 +471,7 @@ a
 			max-height: 364px
 			margin: 0 auto
 			list-style: none
+			text-align: left
 
 			.icon
 				font-size: 30px

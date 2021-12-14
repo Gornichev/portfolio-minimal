@@ -363,8 +363,18 @@ a {
 }
 
 .background-img {
-  background: url("../img/bg-ava-2.png") no-repeat top right;
+  background-image: url("../img/bg-ava-2.png");
+  background-repeat: no-repeat;
+  background-position: right;
   background-size: 760px;
+}
+.background-img .background-img-clone {
+  background-image: url("../img/bg-ava-2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 760px;
+  width: 100%;
+  height: auto;
 }
 
 .background .background-overlay {
@@ -673,6 +683,9 @@ a {
   margin: 0 auto 60px;
   max-width: 529px;
 }
+.section-review .item-review-full .wrapper-img-contact {
+  text-align: center;
+}
 .section-review .item-review-full .item-review {
   color: #FFFFFF;
   border-radius: 20px;
@@ -682,6 +695,7 @@ a {
   max-height: 364px;
   margin: 0 auto;
   list-style: none;
+  text-align: left;
 }
 .section-review .item-review-full .item-review .icon {
   font-size: 30px;
@@ -788,12 +802,28 @@ a {
     padding: 6px;
   }
 
+  .background-img {
+    background-image: none;
+  }
+
+  .section-intro {
+    padding-top: 100px;
+  }
+
   #site-header {
     background: #FFFFFF;
   }
 
   .overlay:before {
     background: none;
+  }
+
+  .section-intro .wrapper-intro {
+    padding-top: 50px;
+  }
+
+  .section-review .item-review-full .item-review .wrapper-tel {
+    text-align: center;
   }
 }
 
