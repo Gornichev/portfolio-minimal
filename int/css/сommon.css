@@ -175,7 +175,7 @@
   line-height: 1;
   text-align: center;
   position: absolute;
-  top: -60px;
+  top: -66px;
   right: 30px;
   font-size: 14px;
   cursor: pointer;
@@ -191,7 +191,7 @@
   line-height: 32px;
   opacity: 0.5;
   color: #0C1523;
-  background: rgba(65, 245, 192, 0.2);
+  background-color: #FAFBFF;
   border-radius: 100%;
   padding: 10px;
 }
@@ -265,6 +265,10 @@ a {
 }
 .header .header-nav-group {
   padding: 25px;
+}
+.header .header-nav-group .icon-menu {
+  font-size: 30px;
+  color: #0C1523;
 }
 .header .header-nav-group .nav-group {
   display: flex;
@@ -791,6 +795,11 @@ a {
   .background-img {
     background-image: none;
   }
+
+  .section-intro {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 @media (max-width: 991.98px) {
   .header .header-nav-group .header-logo {
@@ -805,6 +814,7 @@ a {
 
   .section-intro {
     padding-top: 100px;
+    padding-bottom: 0;
   }
 
   #site-header {
@@ -817,10 +827,44 @@ a {
 
   .section-intro .wrapper-intro {
     padding-top: 50px;
+    text-align: center;
+  }
+  .section-intro .wrapper-intro .intro-text {
+    max-width: 900px;
+  }
+  .section-intro .wrapper-intro .intro-title {
+    margin-bottom: 20px;
+  }
+  .section-intro .wrapper-img-intro {
+    max-width: 300px;
   }
 
   .section-review .item-review-full .item-review .wrapper-tel {
     text-align: center;
+  }
+
+  .section-worth {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .section-find .wrapper-section-find {
+    padding: 50px 100px;
+  }
+  .section-find .wrapper-section-find .find-item {
+    padding: 50px;
+  }
+  .section-find .wrapper-section-find .wrapper-group-find {
+    max-width: 800px;
+    padding: 0;
+    text-align: center;
+  }
+  .section-find .wrapper-section-find .wrapper-group-find .title-find {
+    max-width: 800px;
+  }
+
+  .section-review {
+    padding: 0;
   }
 }
 
