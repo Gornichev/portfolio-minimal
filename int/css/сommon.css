@@ -145,7 +145,7 @@
 #menu {
   padding: 40px;
   width: 100%;
-  height: 300px;
+  height: 250px;
   background-color: #FAFBFF;
   transform: translateY(-500px);
   position: fixed;
@@ -880,6 +880,10 @@ a {
   }
 }
 @media (max-width: 767.98px) {
+  .section-intro {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .section-intro .wrapper-intro {
     padding-top: 20px;
   }
@@ -893,21 +897,74 @@ a {
   .section-intro .wrapper-intro .intro-mini-text {
     font-size: 30px;
   }
+  .section-intro .wrapper-img-intro {
+    max-width: 250px;
+  }
 
   .footer .wrapper-footer {
     text-align: left;
   }
 
   .section-review {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 
   .wrapper-footer-link {
     display: none;
   }
+}
+@media (max-width: 575.98px) {
+  .section-intro {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .section-intro .wrapper-intro {
+    padding-top: 10px;
+  }
+  .section-intro .wrapper-img-intro {
+    max-width: 180px;
+  }
+  .section-intro .wrapper-img-intro .intro-text {
+    font-size: 25px;
+  }
+  .section-intro .wrapper-img-intro .intro-title {
+    font-size: 45px;
+    line-height: 40px;
+  }
+  .section-intro .wrapper-img-intro .intro-mini-text {
+    font-size: 25px;
+  }
 
-  .footer-title-wrapper {
+  .header .header-nav-group .nav .language-group {
+    padding: 7px;
+  }
+
+  .footer .footer-title-wrapper {
     text-align: center;
+  }
+  .footer .wrapper-footer {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .footer .footer-down {
+    display: contents;
+  }
+
+  .section-find .wrapper-section-find {
+    padding: 20px;
+  }
+  .section-find .wrapper-section-find .find-item {
+    padding: 20px;
+  }
+  .section-find .wrapper-section-find .find-item .find-text:after {
+    display: none;
+  }
+
+  .section-review .item-review-full .item-review {
+    padding: 8px;
+  }
+  .section-review .item-review-full .item-review .item-photo-name {
+    font-size: 20px;
   }
 }
 
