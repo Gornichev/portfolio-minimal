@@ -811,7 +811,7 @@ a {
   }
 
   .section-intro {
-    padding-bottom: 0;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 991.98px) {
