@@ -856,6 +856,7 @@ a {
   .section-worth {
     padding-top: 0;
     padding-bottom: 0;
+    margin-bottom: 80px;
   }
 
   .section-find .wrapper-section-find {
@@ -878,6 +879,13 @@ a {
   }
 }
 @media (max-width: 767.98px) {
+  .section-worth {
+    margin-bottom: 80px;
+  }
+  .section-worth .wrapper-worth {
+    padding: 40px 15px;
+  }
+
   .section-intro {
     padding-left: 20px;
     padding-right: 20px;
@@ -914,6 +922,7 @@ a {
 @media (max-width: 575.98px) {
   #site-header {
     height: 85px;
+    z-index: 111;
   }
 
   .section-intro {
@@ -969,12 +978,15 @@ a {
   }
 
   .section-review .item-review-full .item-review {
-    padding: 8px;
+    padding: 20px 8px;
   }
   .section-review .item-review-full .item-review .item-photo-name {
-    font-size: 20px;
+    font-size: 17px;
   }
 
+  .section-worth {
+    margin-bottom: 80px;
+  }
   .section-worth .wrapper-worth .worth-title {
     font-size: 35px;
     margin-bottom: 30px;
