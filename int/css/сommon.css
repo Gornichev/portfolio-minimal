@@ -967,9 +967,6 @@ a {
     display: contents;
   }
 
-  .section-find {
-    margin-bottom: 80px;
-  }
   .section-find .wrapper-section-find {
     padding: 20px;
   }
@@ -983,26 +980,16 @@ a {
     display: none;
   }
 
-  .section-review .title-review {
-    font-size: 35px;
-  }
   .section-review .item-review-full .item-review {
     padding: 8px;
   }
   .section-review .item-review-full .item-review .item-photo-name {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .section-worth .wrapper-worth .worth-title {
     font-size: 35px;
     margin-bottom: 30px;
-  }
-
-  .section-item {
-    margin-bottom: 80px;
-  }
-  .section-item .item-title-had {
-    font-size: 35px;
   }
 }
 
