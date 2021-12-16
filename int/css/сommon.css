@@ -267,8 +267,9 @@ a {
   padding: 25px;
 }
 .header .header-nav-group .icon-menu {
-  font-size: 30px;
+  font-size: 28px;
   color: #0C1523;
+  padding: 8px;
 }
 .header .header-nav-group .nav-group {
   display: flex;
@@ -888,14 +889,14 @@ a {
     padding-top: 20px;
   }
   .section-intro .wrapper-intro .intro-text {
-    font-size: 35px;
+    font-size: 30px;
   }
   .section-intro .wrapper-intro .intro-title {
-    font-size: 55px;
+    font-size: 50px;
     line-height: 50px;
   }
   .section-intro .wrapper-intro .intro-mini-text {
-    font-size: 30px;
+    font-size: 25px;
   }
   .section-intro .wrapper-img-intro {
     max-width: 250px;
@@ -914,6 +915,10 @@ a {
   }
 }
 @media (max-width: 575.98px) {
+  #site-header {
+    height: 85px;
+  }
+
   .section-intro {
     padding-left: 10px;
     padding-right: 10px;
@@ -956,6 +961,9 @@ a {
   .section-find .wrapper-section-find {
     padding: 20px;
   }
+  .section-find .wrapper-section-find .wrapper-group-find .title-find {
+    font-size: 35px;
+  }
   .section-find .wrapper-section-find .find-item {
     padding: 20px;
   }
@@ -968,6 +976,11 @@ a {
   }
   .section-review .item-review-full .item-review .item-photo-name {
     font-size: 20px;
+  }
+
+  .section-worth .wrapper-worth .worth-title {
+    font-size: 35px;
+    margin-bottom: 30px;
   }
 }
 
