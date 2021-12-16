@@ -153,6 +153,7 @@
   top: 100px;
   right: 0;
   bottom: 0;
+  opacity: 0;
   -webkit-transition: all 0.12s linear;
   -moz-transition: all 0.12s linear;
   -o-transition: all 0.12s linear;
@@ -175,8 +176,8 @@
   line-height: 1;
   text-align: center;
   position: absolute;
-  top: -66px;
-  right: 30px;
+  top: 12px;
+  right: 12px;
   font-size: 14px;
   cursor: pointer;
   color: #FAFBFF;
@@ -915,8 +916,16 @@ a {
   }
 }
 @media (max-width: 575.98px) {
+  #menu {
+    top: 84px;
+  }
+  #menu.show {
+    opacity: 1;
+  }
+
   #site-header {
     height: 85px;
+    z-index: 111;
   }
 
   .section-intro {
