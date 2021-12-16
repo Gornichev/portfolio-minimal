@@ -935,6 +935,9 @@ a {
     font-size: 25px;
   }
 
+  .header .header-nav-group {
+    padding: 15px;
+  }
   .header .header-nav-group .nav .language-group {
     padding: 7px;
   }
