@@ -884,7 +884,7 @@ a {
     margin-bottom: 80px;
   }
   .section-worth .wrapper-worth {
-    padding: 40px 15px;
+    padding: 40px 0;
   }
 
   .section-intro {
@@ -984,13 +984,20 @@ a {
   .section-review .item-review-full .item-review .item-photo-name {
     font-size: 17px;
   }
+  .section-review .title-review {
+    font-size: 35px;
+  }
 
   .section-worth {
     margin-bottom: 80px;
   }
   .section-worth .wrapper-worth .worth-title {
-    font-size: 35px;
+    font-size: 33px;
     margin-bottom: 30px;
+  }
+
+  .section-item .item-title-had {
+    font-size: 35px;
   }
 }
 
