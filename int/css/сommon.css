@@ -916,13 +916,6 @@ a {
   }
 }
 @media (max-width: 575.98px) {
-  #menu {
-    top: 84px;
-  }
-  #menu.show {
-    opacity: 1;
-  }
-
   #site-header {
     height: 85px;
     z-index: 111;
