@@ -48,15 +48,12 @@
 	transition: all .12s linear
 
 
-#menu.show
-	transform: translateY(0)
+#menu
+	opacity: 0
 
-	.burger .btn
-		padding: 0
-
-		.btn .icon
-			margin-right: 7px
-			margin-top: 0
+	&.show
+		transform: translateY(0)
+		opacity: 1
 
 	#btn-hide-menu
 		width: 44px
