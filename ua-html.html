@@ -5,283 +5,271 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Yurii Gornichev</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--    Swiper-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!--    Swiper-->
+    <link rel="stylesheet" href="int/css/animate.css">
+    <link rel="stylesheet" href="ext/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="int/css/сommon.css">
 </head>
 <body>
+<div id="menu" class="menu">
+    <span id="btn-hide-menu"><i class="icon icon-close"></i></span>
+    <ul class="burger">
+        <li><a  href="#home">Home</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
 <header class="header" id="site-header">
     <div class="container">
         <div class="header-nav-group">
-            <div class="row align-items-center">
-                <div class="col-7">
-                    <div class="nav-group align-items-center">
-                        <a href="#" class="header-logo"><img src="int/img/logo.png" alt="group"></a>
-                        <a href="#" class="nav-link-active">Home</a>
-
-                        <a href="#" class="nav-link">About Me</a>
+            <div class="wrapper-nav align-items-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="nav-group">
+                            <a href="#" class="header-logo"><img class="img-fluid" src="int/img/logo-svg.svg" alt="group"></a>
+<!--                            <h1 class="intro-title d-lg-none">Yurii Gornichev </h1>-->
+                            <a href="#home" class="nav-link d-none d-lg-block">Home</a>
+                            <a href="#about-me" class="nav-link d-none d-lg-block">About Me</a>
+                            <a href="#skills" class="nav-link d-none d-lg-block">Skills</a>
+                            <a href="#contact" class="nav-link d-none d-lg-block">Contact</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-5">
-                    <div class="nav">
-                        <a href="#skills" class="nav-link">Skills</a>
-
-                        <a href="#" class="nav-link">Contact</a>
-                       <div class="language-group">
-                           <a href="index.html" class="language">En</a>
-                           <a href="ua-html.html" class="language">Ua</a>
-                       </div>
+                    <div class="col-auto">
+                        <div class="nav justify-content-lg-end align-items-center">
+                            <div class="language-group">
+                                <a href="index.html" class="language active">En</a>
+                                <a href="ua-html.html" class="language active">Ua</a>
+                            </div>
+                            <a id="btn-show-menu" class="header-logo d-lg-none" ><i class="icon icon-menu"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </header>
-<div class="section section-intro">
+<div class="background-overlay d-none d-xl-block"></div>
+<div id="home" class="section section-intro background-img">
     <div class="container">
         <div class="row">
-            <div class="col-7">
+            <div class="col-lg-8">
                 <div class="wrapper-intro">
                     <p class="intro-text">Hello, I'm</p>
-
-                    <h1 class="intro-title">Горнічев Юра</h1>
-
+                    <h1 class="intro-title">Yurii Gornichev </h1>
                     <p class="intro-mini-text">Web Developer and Html Coder</p>
-                    <div class="wrapper-btn">
-                        <button type="button" class="btn btn-info">Create Account</button>
-
-                        <a class="link" href="#">Learn More</a>
-                    </div>
-                    <div class="wrapper-mini-logo">
-                        <div class="row row-padding-0 mb-40">
-                            <div class="col-6"><img src="int/img/mini-baber/Rectangle%2031.png" alt=""></div>
-                            <div class="col-6"><img src="int/img/mini-baber/Rectangle%2032.png" alt=""></div>
-                        </div>
-                        <div class="row row-padding-0">
-                            <div class="col-6"><img src="int/img/mini-baber/Rectangle%2033.png" alt=""></div>
-                            <div class="col-6"><img src="int/img/mini-baber/Rectangle%2034.png" alt=""></div>
-                        </div>
-                    </div>
                 </div>
             </div>
-            <div class="col-5">
+            <div class="col-lg-4">
                 <div class="wrapper-img-intro">
-                    <img class="img-fluid img-intro" src="int/img/my-photo.png" alt="">
+                    <img class="img-fluid d-xl-none" src="int/img/my-photo1.png" alt="">
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<section class="section-worth">
+<section id="about-me" class="section-worth">
     <div class="container">
         <div class="wrapper-worth">
-            <div class="worth-title">Check This Before Hiring Anyone</div>
-            <div class="row row-padding-0">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="item">
-                        <span class="worth-number">150K+</span>
-                        <p class="worth-text">Freelance Worker</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="item">
-                        <span class="worth-number">7K++</span>
-                        <p class="worth-text">Professional Clients</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="item">
-                        <span class="worth-number">8K+</span>
-                        <p class="worth-text">Engineering Expart</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="item">
-                        <span class="worth-number">2K+</span>
-                        <p class="worth-text">Top Companies</p>
-                    </div>
-                </div>
-            </div>
+            <h2 class="worth-title wow fadeInUp">A few words About Me</h2>
+            <p class="worth-text">
+                Hi There! I'm <strong>Yourii Gornichev.</strong>
+                Сreative Web developer, HTML coder and I'm very passionate and dedicated to my work.<br>
+                <span class="worth-text-work"><strong> Welcome to My Profile!</strong></span><br>
+                I was born and raised in Kiev. Studied at the National Aviation University and have a Specialist diploma.<br></p>
+                <ul class="worth-text-work">
+                            <li><u>I'll tell you a few words about the technology of my coding:</u></li>
+                        <li class="worth-text">For writing I use the program Php Storm.</li>
+                    <li class="worth-text">For styling I use the Saas processor.</li>
+                    <li class="worth-text">For perfect display of the layout I take Perfect Pixel.</li>
+                    <li class="worth-text">The dynamics of the site is set by the Java-Script code.</li>
+                    <li class="worth-text"> All work data is stored in a personal repository Git Hub.</li>
+                </ul>
+            <p class="worth-text">The finished code is checked by W3C and PagesSpeed services.</p>
         </div>
     </div>
 </section>
-<section class="section-find">
+<section id="skills" class="section-find">
     <div class="container">
-        <div class="wrapper-section-find">
+        <div class="wrapper-section-find bg-light">
             <div class="row row-padding-15">
-                <div class="col-lg-6 mb-40">
+                <div class="col-lg-6 mb-30">
                     <div class="wrapper-group-find">
-                        <h2 class="title-find">Our Features To Find Talent</h2>
-                        <button type="button" class="btn btn-dark">Try For Free</button>
+                        <h2 class="title-find">Professional skills</h2>
                     </div>
                 </div>
-                <div class="col-lg-6 mb-40">
-                    <div class="find-item">
-                        <button type="button" class="btn-success"><i class="icon icon-sun"></i></button>
-                        <div class="title-item">Strong Social Proof</div>
-                        <p class="find-text">Impress your boss with a professional in UI design.</p>
-                        <div class="figure-find"></div>
-                    </div>
+                <div class="col-lg-6 mb-30">
+                    <ul class="find-item wow fadeInUp">
+                        <li class="find-item-element"><i class="icon icon-saas"></i></li>
+                        <li class="title-item">Preprocessor</li>
+                        <li class="find-text">Accelerated website styling</li>
+                        <li class="find-text">Simplified syntax</li>
+                        <li class="figure-find"></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="row row-padding-15">
-                <div class="col-lg-6 mb-40">
-                    <div class="find-item">
-                        <button type="button" class="btn-success"><i class="icon icon-Star"></i></button>
-                        <div class="title-item">Collected Review</div>
-                        <p class="find-text">Impress your boss with a professional in UI design.</p>
-                    </div>
+                <div class="col-lg-6 mb-30">
+                    <ul class="find-item wow fadeInUp">
+                        <li class="find-item-element"><img src="int/img/icon-svg/perfect-pixel.png" alt=""></li>
+                        <li class="title-item">PerfectPixel</li>
+                        <li class="find-text">Exact copy of the layout</li>
+                        <li class="find-text">Increased speed of work</li>
+                    </ul>
                 </div>
-                <div class="col-lg-6 mb-40">
-                    <div class="find-item">
-                        <button type="button" class="btn-success"><i class="icon icon-medal"></i></button>
-                        <div class="title-item">Collected Review</div>
-                        <p class="find-text">Impress your boss with a professional in UI design.</p>
-                    </div>
+                <div class="col-lg-6 mb-30">
+                    <ul class="find-item wow fadeInUp">
+                        <li class="find-item-element"><i class="icon icon-git"></i></li>
+                        <li class="title-item">GitHub</li>
+                        <li class="find-text">Using Repositories</li>
+                        <li class="find-text">Working with branches</li>
+                    </ul>
                 </div>
-                <div class="col-lg-6">
-                    <div class="find-item">
-                        <button type="button" class="btn-success"><i class="icon icon-find"></i></button>
-                        <div class="title-item">Top Rated Telent</div>
-                        <p class="find-text">Impress your boss with a professional in UI design.</p>
-                    </div>
+                <div class="col-lg-6 mb-30">
+                    <ul class="find-item wow fadeInUp">
+                        <li class="find-item-element"><img src="int/img/icon-svg/figma.png" alt=""></li>
+                        <li class="title-item">Figma</li>
+                        <li class="find-text">Teamwork with layouts</li>
+                        <li class="find-text">Сonvenient components</li>
+                    </ul>
                 </div>
-                <div class="col-lg-6">
-                    <div class="find-item">
-                        <button type="button" class="btn-success"><i class="icon icon-case"></i></button>
-                        <div class="title-item">Strong Social Proof</div>
-                        <p class="find-text">Impress your boss with a professional in UI design.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="skills" class="section-item">
-    <div class="container">
-        <h2 class="item-title-had">Professional skills</h2>
-        <div class="item-text">Find the perfect freelance services for your business · Popular professional services ·</div>
-        <div class="item-full">
-            <div class="row row-padding-0">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="item">
-                        <span class=" icon icon-pen"></span>
-                                <div class="item-title">Graphic Design</div>
-                        <div class="item-text-mini">1k Jobs Available</div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="item">
-                        <span class=" icon icon-comp"></span>
-                        <div class="item-title">UI Designer</div>
-                        <div class="item-text-mini">5k Jobs Available</div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="item">
-                        <span class=" icon icon-uxsvg"></span>
-                        <div class="item-title">UX Designer</div>
-                        <div class="item-text-mini">7k Jobs Available</div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="item">
-                        <span class=" icon icon-book"></span>
-                        <div class="item-title">Content Writing</div>
-                        <div class="item-text-mini">500 Jobs Available</div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="item">
-                        <span class=" icon icon-voisesvg"></span>
-                        <div class="item-title">Digital Marketing</div>
-                        <div class="item-text-mini">2k Jobs Available</div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="item">
-                        <span class=" icon icon-world"></span>
-                        <div class="item-title">SEO</div>
-                        <div class="item-text-mini">1.5k Jobs Available</div>
-                    </div>
+                <div class="col-lg-6 mb-30">
+                    <ul class="find-item wow fadeInUp">
+                        <li class="find-item-element"><i class="icon icon-bootstrap"></i></li>
+                        <li class="title-item">Bootstrap 5</li>
+                        <li class="find-text">Responsiveness site</li>
+                        <li class="find-text">Cross-browser compatibility</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<div class="section-mini-start">
+<section id="technology" class="section-item">
     <div class="container">
-        <div class="row">
-            <div class="row align-items-center">
-                <div class="col-md">
-                    <div class="title-start">Get Starting Work With Startup Today.</div>
-                    <p class="start-text">Starting a business and getting it off the ground is easy if you follow.</p>
+        <h2 class="item-title-had wow fadeInUp">The technologies I use</h2>
+        <div class="item-text"></div>
+<!--        swipper-->
+        <div class="wrapper-swiper-cert">
+            <div class="swiper swiper-cert">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide-body">
+                            <div class="item">
+                                <img class="img-fluid" src="int/img/slider/bootstrap.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-body">
+                            <div class="item">
+                                <img class="img-fluid" src="int/img/slider/figma.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-body">
+                            <div class="item">
+                                <img class="img-fluid" src="int/img/slider/html.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-body">
+                            <div class="item">
+                                <img class="img-fluid" src="int/img/slider/icon-final.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-body">
+                            <div class="item">
+                                <img class="img-fluid" src="int/img/slider/adobe-illustrator.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-body">
+                            <div class="item">
+                                <img class="img-fluid" src="int/img/slider/js-new.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-body">
+                            <div class="item">
+                                <img class="img-fluid" src="int/img/slider/perfect.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-auto">
-                    <div class="btn btn-dark">Start Now</div>
+            </div>
+            <div class="swiper-button swiper-button-next"></div>
+            <div class="swiper-button swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+<section class="section-review" id="contact">
+    <div class="container">
+            <h5 class="title-review wow fadeInUp">Contact</h5>
+            <div class="item-review-full wow fadeInUp">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-30">
+                        <div class="wrapper-img-contact">
+                            <img class="img-fluid" src="int/img/my-photo-2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="item-review">
+                            <li class="wrapper-tel">
+                                <div class="item-photo-name"><i class="icon icon-point"></i>Ukraine,KYIV</div>
+                            </li>
+                            <li class="wrapper-tel">
+                                <a  class="item-photo-name" target="_blank" href="mailto:gornichev1986@gmail.com"><i class="icon icon-envelope-regular"></i>gornichev1986@gmail.com</a>
+                            </li>
+                            <li class="wrapper-tel">
+                                <a href="tel:+380679007006" target="_blank"  class="item-photo-name"><i class="icon icon-phone"></i>+380679007006</a>
+                            </li>
+                            <li class="wrapper-tel">
+                                <a class="item-photo-name" target="_blank" href="https://t.me/GornichevYurii"><i class="icon icon-telegram"></i>Telegram</a>
+                            </li>
+                            <li class="wrapper-tel">
+                                <a class="item-photo-name" target="_blank"  href="https://wa.me/380679007006"><i class="icon icon-whatsapp"></i>WhatsApp</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<section class="section-review">
-    <div class="container">
-        <div class="title-review">Check out Recent Review</div>
-        <div class="text-review-title">Find the perfect freelance services for your business · Popular professional services ·</div>
-        <div class="item-review-full">
-            <div class="row row-padding-15">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="item-review">
-                        <button type="button" class="btn btn-light"><i class="icon icon-Star"></i>5.0</button>
-                        <p class="text-review">“Starting a business and getting it off the ground is easy if you follow.”</p>
-                        <div class="item-photo"><img src="int/img/item/item1.png" alt=""> </div>
-                        <div class="item-photo-name">Jhon Smith</div>
-                        <div class="item-photo-text">CEO Of Heart Business</div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="item-review">
-                        <button type="button" class="btn btn-light"><i class="icon icon-Star"></i>5.0</button>
-                        <p class="text-review">“Starting a business and getting it off the ground is easy if you follow.”</p>
-                        <div class="item-photo"><img src="int/img/item/item2.png" alt=""> </div>
-                        <div class="item-photo-name">Jhon Smith</div>
-                        <div class="item-photo-text">CEO Of Heart Business</div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="item-review">
-                        <button type="button" class="btn btn-light"><i class="icon icon-Star"></i>5.0</button>
-                        <p class="text-review">“Starting a business and getting it off the ground is easy if you follow.”</p>
-                        <div class="item-photo"><img src="int/img/item/item3.png" alt=""> </div>
-                        <div class="item-photo-name">Jhon Smith</div>
-                        <div class="item-photo-text">CEO Of Heart Business</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 <footer class="footer">
     <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-auto">
-                <div class="footer-mail">gornichev1986@gmail.com</div>
+        <div class="row justify-content-between align-items-center">
+            <div class="col-md-auto">
+                    <p class="wrapper-footer-link">© Copyright 2022</p>
             </div>
-            <div class="col-auto">
-                <a href="#"><img src="int/img/icon-svg/linkidink.svg" alt=""></a>
-                <a href="#"><img src="int/img/icon-svg/instagram.svg" alt=""></a>
-                <a href="#"><img src="int/img/icon-svg/facebook.svg" alt=""></a>
+            <div class="col-sm-6 col-md-5">
+                <div class="wrapper-footer">
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100011222852447"><img src="int/img/icon-svg/linkidink.svg" alt=""></a>
+                    <a target="_blank" href="https://www.instagram.com/unclefish_kiev/?hl=ru"><img src="int/img/icon-svg/facebook.svg" alt=""></a>
+                    <a target="_blank" href="https://github.com/Gornichev"><img src="int/img/git.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-auto">
+                <div class="footer-title-wrapper">
+                    <a href="#home" class="footer-down">Created by <span class="color-footer">Yurii Gornichev</span></a>
+                </div>
             </div>
         </div>
-    </div>
+</div>
 </footer>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+<script src="ext/bootstrap/js/bootstrap.min.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="int/js/wow.min.js"></script>
+<script>new WOW().init = function () {
+}
+new WOW().init();</script>
 <script src="int/js/main.js"></script>
 </body>
 </html>

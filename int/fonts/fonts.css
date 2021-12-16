@@ -35,16 +35,6 @@
 }
 
 @font-face {
-    font-family: 'Inter-Black';
-    src: url('inter/Inter-Black.svg');
-    src: url('inter/Inter-Black.svg?#iefix') format('embedded-opentype'),
-    url('inter/Inter-Black.svg#Inter-Thin') format('svg'),
-    url('inter/Inter-Black.svg') format('truetype'),
-    url('inter/Inter-Black.svg') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'Inter-Bold';
     src: url('inter/Inter-Bold.svg');
     src: url('inter/Inter-Bold.svg?#iefix') format('embedded-opentype'),
@@ -53,6 +43,7 @@
     url('inter/Inter-Bold.svg') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: auto;
 }
 @font-face {
     font-family: 'Inter-Regular';
@@ -63,6 +54,7 @@
     url('inter/Inter-Regular.svg') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: auto;
 }
 
 @font-face {
@@ -74,6 +66,7 @@
     url('inter/Inter-ExtraBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: auto;
 }
 
 @font-face {
@@ -85,7 +78,9 @@
     url('inter/Inter-SemiBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: auto;
 }
+
 
 @font-face {
     font-family: 'Inter-Medium';
@@ -96,6 +91,7 @@
     url('inter/Inter-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: auto;
 }
 
 
