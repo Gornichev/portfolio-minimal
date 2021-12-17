@@ -45,17 +45,6 @@
     font-style: normal;
     font-display: auto;
 }
-@font-face {
-    font-family: 'Inter-Regular';
-    src: url('inter/Inter-Regular.svg');
-    src: url('inter/Inter-Regular.svg?#iefix') format('embedded-opentype'),
-    url('inter/Inter-Regular.svg#Inter-Thin') format('svg'),
-    url('inter/Inter-Regular.svg') format('truetype'),
-    url('inter/Inter-Regular.svg') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: auto;
-}
 
 @font-face {
     font-family: 'Inter-ExtraBold';
@@ -68,6 +57,18 @@
     font-style: normal;
     font-display: auto;
 }
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('inter/Inter-Regular.svg');
+    src: url('inter/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+    url('inter/Inter-Regular.svg#Inter-ExtraBold') format('svg'),
+    url('inter/Inter-Regular.ttf') format('truetype'),
+    url('inter/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: auto;
+}
+
 
 @font-face {
     font-family: 'Inter-SemiBold';
