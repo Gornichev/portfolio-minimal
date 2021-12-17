@@ -928,6 +928,7 @@ a {
   }
   .section-intro .wrapper-intro .intro-mini-text {
     font-size: 25px;
+    margin-bottom: 20px;
   }
   .section-intro .wrapper-img-intro {
     max-width: 250px;
@@ -956,10 +957,10 @@ a {
     padding-right: 10px;
   }
   .section-intro .wrapper-intro {
-    padding-top: 10px;
+    padding-top: 0;
   }
   .section-intro .wrapper-img-intro {
-    max-width: 220px;
+    max-width: 235px;
   }
   .section-intro .wrapper-img-intro .intro-text {
     font-size: 25px;
