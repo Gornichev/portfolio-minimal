@@ -105,3 +105,5 @@ hideMenu.onclick = function() {
     body.classList.remove("overlay");
     menu.classList.remove("show");
 }
+// click button language
+onclick="this.className = (this.className == 'language' ? 'language-visited' : 'language')"

@@ -370,6 +370,13 @@ a {
   opacity: 0.9;
   background-color: #FAFBFF;
 }
+.header .header-nav-group .nav .language-group .language:active {
+  color: #F8B200;
+}
+.header .header-nav-group .nav .language-group .language-visited {
+  background: #0C1523;
+  color: red;
+}
 .header .header-nav-group .header-logo {
   margin-right: 100px;
 }
@@ -925,7 +932,7 @@ a {
   }
   .section-intro .wrapper-intro .intro-title {
     font-size: 50px;
-    line-height: 30px;
+    line-height: 40px;
   }
   .section-intro .wrapper-intro .intro-mini-text {
     font-size: 20px;
