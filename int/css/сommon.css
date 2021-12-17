@@ -921,6 +921,7 @@ a {
   }
   .section-intro .wrapper-intro .intro-text {
     font-size: 30px;
+    margin: 0;
   }
   .section-intro .wrapper-intro .intro-title {
     font-size: 50px;
