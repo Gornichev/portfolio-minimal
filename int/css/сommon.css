@@ -1,9 +1,9 @@
 /* Error: Inconsistent indentation, expected 5 spaces.
  *     ,
- * 131 |             .language-group
+ * 126 |             .language-group
  *     | ^^^^^^^^^^^^
  *     '
- *   main.sass 131:1  @import
+ *   main.sass 126:1  @import
  *   сommon.sass 8:9  root stylesheet */
 
 body::before {
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Inconsistent indentation, expected 5 spaces.\a     \2577 \a 131 \2502              .language-group\d\a     \2502  ^^^^^^^^^^^^\a     \2575 \a   main.sass 131:1  @import\a   \441 ommon.sass 8:9  root stylesheet";
+  content: "Error: Inconsistent indentation, expected 5 spaces.\a     \2577 \a 126 \2502              .language-group\d\a     \2502  ^^^^^^^^^^^^\a     \2575 \a   main.sass 126:1  @import\a   \441 ommon.sass 8:9  root stylesheet";
 }
