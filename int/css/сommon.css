@@ -369,7 +369,6 @@ a {
   transform: scale(1.1);
   transition: 0.5s;
   opacity: 0.9;
-  background-color: #FAFBFF;
 }
 .header .header-nav-group .nav .language-group .language:active {
   color: #F8B200;
