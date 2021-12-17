@@ -4,7 +4,6 @@
     const toggleHeader = function(direction, curScroll) {
         if (direction === 2 && curScroll > 52) {
 
-
             header.classList.add('hide');
             prevDirection = direction;
         }
@@ -106,4 +105,3 @@ hideMenu.onclick = function() {
     menu.classList.remove("show");
 }
 // click button language
-onclick="this.className = (this.className == 'language' ? 'language-visited' : 'language')"

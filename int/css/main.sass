@@ -131,6 +131,7 @@ a
 					font-family: 'Inter-Medium', sans-serif
 					border-radius: 100%
 					color: $darkColor
+					text-transform: uppercase
 					text-align: center
 					border: 1px solid $darkLightColor
 					margin-left: 15px
@@ -141,7 +142,7 @@ a
 					opacity: 0.5
 					min-width: 34px
 
-					&.active:hover
+					&:hover
 						transform: scale(1.1)
 						transition: 0.5s
 						opacity: 0.9
@@ -150,9 +151,9 @@ a
 					&:active
 						color: $liteGoldColor
 
-				.language-visited
-					background: #0C1523
-					color: red
+				.active
+					background: $darkLightColor
+					color: $minimalLightColor
 
 		.header-logo
 			margin-right: 100px

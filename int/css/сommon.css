@@ -354,6 +354,7 @@ a {
   font-family: "Inter-Medium", sans-serif;
   border-radius: 100%;
   color: #0C1523;
+  text-transform: uppercase;
   text-align: center;
   border: 1px solid #0C1523;
   margin-left: 15px;
@@ -364,7 +365,7 @@ a {
   opacity: 0.5;
   min-width: 34px;
 }
-.header .header-nav-group .nav .language-group .language.active:hover {
+.header .header-nav-group .nav .language-group .language:hover {
   transform: scale(1.1);
   transition: 0.5s;
   opacity: 0.9;
@@ -373,9 +374,9 @@ a {
 .header .header-nav-group .nav .language-group .language:active {
   color: #F8B200;
 }
-.header .header-nav-group .nav .language-group .language-visited {
+.header .header-nav-group .nav .language-group .active {
   background: #0C1523;
-  color: red;
+  color: #FAFBFF;
 }
 .header .header-nav-group .header-logo {
   margin-right: 100px;
