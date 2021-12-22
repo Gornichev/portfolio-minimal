@@ -75,7 +75,7 @@
     src: url('inter/Inter-SemiBold.eot');
     src: url('inter/Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
     url('inter/Inter-SemiBold.svg#Inter-SemiBold') format('svg'),
-    url('inter/Inter-SemiBold.ttf') format('truetype'),
+    url('./inter/Inter-SemiBold.ttf') format('truetype'),
     url('inter/Inter-SemiBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -88,7 +88,7 @@
     src: url('inter/Inter-Medium.eot');
     src: url('inter/Inter-Medium.eot?#iefix') format('embedded-opentype'),
     url('inter/Inter-Medium.svg#Inter-Medium') format('svg'),
-    url('inter/Inter-Medium.ttf') format('truetype'),
+    url('./inter/Inter-Medium.ttf') format('truetype'),
     url('inter/Inter-Medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
